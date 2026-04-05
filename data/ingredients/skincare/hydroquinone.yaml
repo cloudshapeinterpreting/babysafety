@@ -1,0 +1,89 @@
+id: hydroquinone
+name: Hydroquinone
+aliases:
+  - 1,4-Dihydroxybenzene
+  - 1,4-Benzenediol
+  - Benzene-1,4-diol
+  - Quinol
+  - p-Dihydroxybenzene
+  - Hydrochinon
+cas_number: "123-31-9"
+
+category: skin_lightener
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: avoid
+    summary: >
+      ACOG recommends avoiding hydroquinone during pregnancy due to
+      uniquely high systemic absorption (35-45 percent), the highest
+      of any cosmetic ingredient.
+    details: >
+      Hydroquinone is a topical skin lightener used to treat melasma,
+      hyperpigmentation, and dark spots. Unlike most topical cosmetics
+      which have negligible systemic absorption, hydroquinone is
+      absorbed at 35-45 percent through intact skin, producing
+      significant systemic exposure. ACOG specifically recommends
+      avoiding hydroquinone during pregnancy. While no direct human
+      teratogenicity has been established, the high absorption rate
+      combined with absence of pregnancy safety data makes this a
+      clear avoid. Pregnancy itself frequently causes melasma (the
+      "mask of pregnancy"), so pregnant women are often tempted to
+      seek treatment -- safer alternatives exist.
+    dose_dependent: false
+    exposure_route: topical
+
+  nursing:
+    rating: avoid
+    summary: >
+      LactMed does not formally contraindicate hydroquinone in
+      breastfeeding but notes high absorption and recommends
+      avoidance if possible.
+    details: >
+      Given the 35-45 percent systemic absorption and limited lactation
+      safety data, most providers recommend avoiding hydroquinone
+      during nursing. Safer alternatives (azelaic acid, niacinamide,
+      vitamin C) are available for post-pregnancy pigmentation.
+    dose_dependent: false
+    exposure_route: topical
+
+  baby:
+    rating: avoid
+    summary: >
+      Not appropriate for infants or children. High absorption and
+      no safety data in pediatric populations.
+    min_safe_age_months: null
+    exposure_route: topical
+
+sources:
+  - ref: mothertobaby-hydroquinone
+  - ref: lactmed-hydroquinone
+  - ref: acog-skincare-pregnancy-2021
+  - ref: acog-skin-care-pregnancy
+
+safer_alternatives:
+  - name: Azelaic Acid
+    id: null
+    note: "Safe in pregnancy per ACOG; effective for hyperpigmentation and acne"
+  - name: Niacinamide
+    id: null
+    note: "Vitamin B3; safe in pregnancy; helps with pigmentation and skin tone"
+  - name: Vitamin C (L-Ascorbic Acid)
+    id: null
+    note: "Safe antioxidant with brightening effects during pregnancy"
+  - name: Tranexamic Acid (topical)
+    id: null
+    note: "Topical formulations have limited pregnancy data; generally considered lower risk than hydroquinone but consult provider"
+
+notes: >
+  Hydroquinone is available OTC in some countries (up to 2 percent in
+  the US until the CARES Act; now prescription-only for safety
+  reasons) and by prescription in higher concentrations (4 percent and
+  above). It is also banned or restricted in the EU, Japan, and
+  Australia for cosmetic use. The pregnancy concern is absorption
+  magnitude, not direct teratogenic evidence.
+last_reviewed: "2026-04-05"
+confidence: high

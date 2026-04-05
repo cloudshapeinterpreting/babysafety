@@ -1,0 +1,162 @@
+id: essential_oils_pregnancy_avoid
+name: Essential Oils Contraindicated in Pregnancy
+aliases:
+  - Pennyroyal Oil
+  - Mentha Pulegium
+  - Wintergreen Oil
+  - Gaultheria Procumbens
+  - Methyl Salicylate
+  - Clary Sage Oil
+  - Salvia Sclarea
+  - Sage Oil
+  - Salvia Officinalis
+  - Rosemary Oil
+  - Rosmarinus Officinalis
+  - Juniper Oil
+  - Juniper Berry Oil
+  - Juniperus Communis
+  - Tansy Oil
+  - Tanacetum Vulgare
+  - Mugwort Oil
+  - Artemisia Vulgaris
+  - Hyssop Oil
+  - Hyssopus Officinalis
+  - Savin Oil
+  - Juniperus Sabina
+  - Parsley Seed Oil
+  - Petroselinum Crispum Seed Oil
+  - Basil Oil
+  - Ocimum Basilicum
+  - Wormwood Oil
+  - Artemisia Absinthium
+  - Camphor Oil
+  - Camphora
+  - Cinnamomum Camphora
+cas_number: null
+
+category: essential_oil_high_risk
+product_types:
+  - skincare
+  - aromatherapy
+  - cosmetics
+  - cleaning
+
+safety:
+  pregnancy:
+    rating: avoid
+    summary: >
+      This class entry covers essential oils that Tisserand and
+      Young's "Essential Oil Safety" (the standard professional
+      reference) identifies as contraindicated in pregnancy due to
+      emmenagogic, abortifacient, uterine-stimulant, or
+      fetotoxic effects.
+    details: >
+      Not all essential oils are unsafe in pregnancy. This entry is
+      scoped specifically to oils with documented pregnancy
+      contraindications per Tisserand & Young's "Essential Oil
+      Safety" (2nd edition, the standard professional reference)
+      and NAHA guidance:
+
+      - Pennyroyal: the most well-documented abortifacient; also
+        hepatotoxic; NEVER use in pregnancy or nursing.
+      - Wintergreen (Gaultheria procumbens): contains 98+ percent
+        methyl salicylate; salicylate toxicity risk for both mother
+        and fetus; also a risk for infants (Reye-like concerns).
+      - Tansy, savin, mugwort, wormwood: abortifacient/toxic.
+      - Sage (Salvia officinalis, not clary sage): contains thujone;
+        emmenagogic.
+      - Clary sage (Salvia sclarea): traditionally used by midwives
+        to induce labor; avoid until term.
+      - Rosemary (high cineole chemotypes): possible
+        uterine-stimulant effects.
+      - Juniper berry: historically used as abortifacient;
+        contraindicated.
+      - Basil (high estragole chemotypes): estragole is potentially
+        genotoxic.
+      - Parsley seed: traditionally used to induce miscarriage.
+      - Hyssop: contains pulegone; neurotoxic and abortifacient.
+      - Camphor: crosses placenta; fetotoxic at high doses;
+        neurotoxic.
+
+      The mechanism of concern varies but includes uterine
+      stimulation, hormonal/estrogenic activity, hepatotoxicity,
+      neurotoxicity, and salicylate content. Typical routes of
+      exposure in pregnancy are aromatherapy diffusers, massage
+      oils, DIY skincare, and some "natural" cleaning products.
+      Topical use is generally the highest-concern route because
+      essential oils are absorbed through skin.
+
+      This is NOT a blanket statement that all essential oils are
+      unsafe. Many essential oils (e.g., lavender, chamomile,
+      citrus, frankincense) are considered lower risk and even
+      widely used in prenatal aromatherapy. The list here
+      specifically targets the well-documented high-risk oils.
+    dose_dependent: true
+    exposure_route: multiple
+
+  nursing:
+    rating: caution
+    summary: >
+      Several of these oils have additional lactation concerns
+      (peppermint/sage reduce milk supply; wintergreen is a
+      salicylate risk for the infant via skin contact). Avoid
+      direct application to chest/breast area. Avoid pennyroyal,
+      wintergreen, tansy, and mugwort entirely.
+    details: >
+      Peppermint (not on this pregnancy-avoid list, but also a
+      nursing consideration) and sage have traditional use as
+      lactation suppressants. Wintergreen is a particular concern
+      because it is essentially concentrated methyl salicylate and
+      can cause salicylate toxicity in an infant via skin contact
+      if applied to the chest area. Pennyroyal remains absolutely
+      contraindicated.
+    dose_dependent: true
+    exposure_route: multiple
+
+  baby:
+    rating: avoid
+    summary: >
+      Several members of this list are especially dangerous for
+      infants (wintergreen, camphor, pennyroyal). See individual
+      entries for camphor and wintergreen/methyl salicylate for
+      baby-specific details.
+    details: >
+      Infants are highly sensitive to essential oils. Wintergreen
+      and camphor have caused fatalities in small children from
+      small ingestions or skin applications. The AAP warns against
+      essential oil use in and around infants under 2.
+    min_safe_age_months: null
+    exposure_route: multiple
+
+sources:
+  - ref: tisserand-young-eo-safety
+  - ref: naha-pregnancy-safety
+  - ref: aap-sunscreen-policy
+
+safer_alternatives:
+  - name: Lavender essential oil (lower concentration)
+    id: null
+    note: "Generally considered lower risk in pregnancy at normal aromatherapy dilutions; still use with caution"
+  - name: Chamomile (German/Roman) essential oil
+    id: null
+    note: "Generally considered lower risk in pregnancy at normal dilutions"
+  - name: Citrus essential oils (sweet orange, lemon, grapefruit)
+    id: null
+    note: "Lower risk in pregnancy but photosensitizing; avoid sun exposure after application"
+  - name: Frankincense (Boswellia) essential oil
+    id: null
+    note: "Generally considered lower risk in pregnancy"
+
+notes: >
+  This is a class entry. If a product lists any of the aliases above,
+  the pregnancy avoid rating applies. This is one of the most
+  frequently asked-about ingredient categories in pregnancy and the
+  answer is genuinely nuanced: some essential oils are fine, some
+  specific oils are absolutely contraindicated. Always check the
+  specific oil against Tisserand & Young or consult a clinical
+  aromatherapist with prenatal experience. Dilution, route, and
+  duration all matter -- a drop of clary sage diffused briefly in a
+  room is different from 20 drops in a massage oil applied to the
+  abdomen daily.
+last_reviewed: "2026-04-05"
+confidence: high

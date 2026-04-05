@@ -1,0 +1,113 @@
+id: phthalates
+name: Phthalates
+aliases:
+  - Dibutyl Phthalate
+  - DBP
+  - Diethyl Phthalate
+  - DEP
+  - Di(2-ethylhexyl) Phthalate
+  - DEHP
+  - Benzyl Butyl Phthalate
+  - BBP
+  - Dimethyl Phthalate
+  - DMP
+  - Diisobutyl Phthalate
+  - DIBP
+  - Phthalate Esters
+cas_number: "84-74-2"
+
+category: plasticizer_endocrine_disruptor
+product_types:
+  - skincare
+  - cosmetics
+  - nail_products
+  - fragrance
+
+safety:
+  pregnancy:
+    rating: avoid
+    summary: >
+      Endocrine disruptors with documented anti-androgenic effects.
+      EU has banned DBP, DEHP, BBP, and DMP from cosmetics. Often
+      hidden in "fragrance" on US product labels. Avoid during
+      pregnancy especially given male fetal development concerns.
+    details: >
+      Phthalates are a family of chemicals used to soften plastics and
+      as solvents or fixatives in cosmetics (particularly in
+      fragrances, nail polishes, and hair products). They are
+      endocrine disruptors with anti-androgenic effects documented
+      in animal and epidemiologic studies, and have been associated
+      with male reproductive tract malformations (e.g., reduced
+      anogenital distance, hypospadias) when exposure occurs during
+      pregnancy.
+
+      The EU Cosmetics Regulation (Annex II) prohibits DBP, DEHP,
+      BBP, and DMP in cosmetic products. The US FDA has NOT banned
+      phthalates from cosmetics and allows them in fragrance
+      ingredients without requiring disclosure -- the generic term
+      "fragrance" or "parfum" on a US label may contain phthalates
+      that are not individually listed. This is why "fragrance" is
+      also flagged as caution.
+
+      To reduce exposure: choose products labeled "phthalate-free";
+      favor fragrance-free products; avoid nail polishes containing
+      DBP (nail "toxic trio": toluene, formaldehyde, DBP); check
+      shampoos and hair sprays for phthalates.
+    dose_dependent: true
+    exposure_route: multiple
+
+  nursing:
+    rating: avoid
+    summary: >
+      Phthalates are detected in breast milk. Continue to avoid
+      phthalate-containing products while nursing.
+    details: >
+      Biomonitoring studies routinely detect phthalate metabolites in
+      human breast milk and infant urine. While a single exposure is
+      unlikely to cause harm, cumulative exposure during sensitive
+      developmental windows is the concern.
+    dose_dependent: true
+    exposure_route: multiple
+
+  baby:
+    rating: avoid
+    summary: >
+      Avoid phthalates in infant products. Infant and toddler
+      biomonitoring routinely detects phthalates; associations with
+      developmental effects continue to be studied.
+    details: >
+      Phthalates have been found in some infant lotions, powders, and
+      shampoos. Infants are particularly vulnerable during
+      endocrine-sensitive developmental windows. Choose explicitly
+      phthalate-free baby products.
+    min_safe_age_months: null
+    exposure_route: multiple
+
+sources:
+  - ref: eu-cosmetics-annex-ii
+  - ref: fda-phthalates-cosmetics
+  - ref: cdc-lead-exposure
+  - ref: mothertobaby-hydroquinone
+
+safer_alternatives:
+  - name: Phthalate-free fragrance
+    id: null
+    note: "Some manufacturers voluntarily label phthalate-free"
+  - name: Fragrance-free products
+    id: null
+    note: "Eliminates the primary hidden source of phthalates in cosmetics"
+  - name: Natural essential oil fragrance
+    id: null
+    note: "Caveat: some essential oils have their own pregnancy concerns; see essential oils entry"
+
+notes: >
+  The practical difficulty with phthalates is that US cosmetic
+  labeling does not require disclosure of individual fragrance
+  components, so "fragrance" or "parfum" on a label may or may not
+  contain phthalates. The safest practical approach during pregnancy
+  is to favor fragrance-free products or those explicitly labeled
+  phthalate-free. Nail polishes to watch for: the "toxic trio" of
+  DBP, toluene, and formaldehyde -- increasingly phased out by major
+  brands but still present in some salon-grade products.
+last_reviewed: "2026-04-05"
+confidence: high

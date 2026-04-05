@@ -1,0 +1,91 @@
+id: octinoxate
+name: Octinoxate
+aliases:
+  - Octyl Methoxycinnamate
+  - Ethylhexyl Methoxycinnamate
+  - OMC
+  - EHMC
+  - 2-Ethylhexyl 4-methoxycinnamate
+  - Parsol MCX
+  - Escalol 557
+cas_number: "5466-77-3"
+
+category: chemical_sunscreen
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: avoid
+    summary: >
+      Chemical sunscreen active with significant systemic absorption
+      (JAMA 2019) and endocrine/thyroid concerns in animal studies.
+      FDA has not affirmed GRASE status. Safer mineral alternatives
+      (zinc oxide, titanium dioxide) are recommended in pregnancy.
+    details: >
+      Octinoxate is one of the most common chemical sunscreen actives
+      in US products. The JAMA 2019 study demonstrated that octinoxate
+      exceeds the FDA threshold for systemic absorption after single
+      application. Animal studies have shown thyroid and estrogenic
+      effects. Octinoxate has been detected in breast milk, urine, and
+      blood of the general population. In 2021, the FDA issued a
+      deemed final order finding that octinoxate (along with 11 other
+      chemical sunscreen actives) lacks sufficient safety data to be
+      classified as GRASE. Hawaii and several other jurisdictions have
+      banned it over coral reef concerns. For pregnancy, given the
+      systemic absorption and endocrine concerns, ACOG and
+      dermatologists recommend switching to mineral sunscreens (zinc
+      oxide, titanium dioxide).
+    dose_dependent: false
+    exposure_route: topical
+
+  nursing:
+    rating: avoid
+    summary: >
+      Detected in breast milk. Safer mineral alternatives are
+      available and recommended.
+    details: >
+      Octinoxate has been measured in breast milk in human
+      biomonitoring studies. While exposure levels are low, the
+      availability of safer mineral sunscreen alternatives makes
+      avoidance the prudent choice during lactation.
+    dose_dependent: false
+    exposure_route: topical
+
+  baby:
+    rating: avoid
+    summary: >
+      AAP recommends mineral sunscreens for infants and children, not
+      chemical filters like octinoxate.
+    details: >
+      Children have higher surface area to body weight ratios, leading
+      to proportionally higher systemic absorption from any topical.
+      The AAP specifically recommends zinc oxide or titanium dioxide
+      mineral sunscreens for children.
+    min_safe_age_months: 6
+    exposure_route: topical
+
+sources:
+  - ref: jama-sunscreen-absorption-2019
+  - ref: fda-sunscreen-actives-2021
+  - ref: aap-sunscreen-policy
+  - ref: eu-sccs-cosmetic-safety
+
+safer_alternatives:
+  - name: Zinc Oxide
+    id: zinc_oxide
+    note: "Mineral sunscreen; FDA GRASE; safe all stages"
+  - name: Titanium Dioxide
+    id: null
+    note: "Mineral sunscreen; FDA GRASE; safe all stages"
+
+notes: >
+  Octinoxate is a UVB filter often paired with avobenzone (UVA) in
+  chemical sunscreens. The most straightforward substitution is to
+  switch to a mineral sunscreen with zinc oxide and/or titanium
+  dioxide. Look for products labeled "mineral sunscreen," "physical
+  sunscreen," or "reef safe" -- these generally avoid all chemical
+  filters.
+last_reviewed: "2026-04-05"
+confidence: high

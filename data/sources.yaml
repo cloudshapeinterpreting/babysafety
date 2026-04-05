@@ -198,3 +198,116 @@ eu-sccs-cosmetic-safety:
   title: "Scientific Committee on Consumer Safety Opinions on Cosmetic Ingredients"
   url: "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en"
   note: "EU SCCS provides independent scientific opinions on the safety of cosmetic ingredients in the EU market"
+
+# --- Sources for Pregnancy Red List (Phase B1) ---
+
+mothertobaby-hydroquinone:
+  type: guideline
+  org: OTIS
+  title: "MotherToBaby Fact Sheet: Hydroquinone"
+  url: "https://mothertobaby.org/fact-sheets/hydroquinone-pregnancy/"
+  note: "Skin lightening agent; up to 35-45 percent systemic absorption; most providers recommend avoiding use during pregnancy"
+
+lactmed-hydroquinone:
+  type: database
+  org: NIH
+  title: "LactMed: Hydroquinone"
+  url: "https://www.ncbi.nlm.nih.gov/books/NBK500669/"
+  note: "LactMed does not formally contraindicate topical hydroquinone in breastfeeding but notes high absorption and recommends avoidance if possible"
+
+mothertobaby-minoxidil:
+  type: guideline
+  org: OTIS
+  title: "MotherToBaby Fact Sheet: Minoxidil"
+  url: "https://mothertobaby.org/fact-sheets/minoxidil-pregnancy/"
+  note: "Topical hair growth drug; limited human pregnancy data, animal studies show fetal effects; advises against use"
+
+fda-sunscreen-actives-2021:
+  type: regulatory
+  org: FDA
+  title: "FDA Deemed Final Order: Over-the-Counter Sunscreen Drug Products"
+  year: 2021
+  url: "https://www.fda.gov/drugs/understanding-over-counter-medicines/questions-and-answers-fda-posts-deemed-final-order-and-proposed-order-over-counter-sunscreen"
+  note: "Of 16 sunscreen active ingredients, only zinc oxide and titanium dioxide are GRASE; 12 others (including oxybenzone, octinoxate, avobenzone) lack sufficient data; PABA and trolamine salicylate deemed not GRASE"
+
+iarc-formaldehyde:
+  type: regulatory
+  org: IARC
+  title: "IARC Monograph Vol 100F: Formaldehyde"
+  year: 2012
+  url: "https://publications.iarc.fr/123"
+  note: "Formaldehyde classified as IARC Group 1 (carcinogenic to humans), sufficient evidence for nasopharyngeal cancer and leukemia"
+
+fda-keratin-formaldehyde-alert:
+  type: regulatory
+  org: FDA
+  title: "FDA Hazard Alert: Hair-Smoothing Products Containing Formaldehyde"
+  url: "https://www.fda.gov/cosmetics/cosmetic-products/hair-smoothing-products-could-release-formaldehyde"
+  note: "FDA and OSHA have issued hazard alerts for keratin smoothing treatments (Brazilian blowout etc.) that release formaldehyde during application, posing occupational and consumer inhalation risk"
+
+osha-formaldehyde:
+  type: regulatory
+  org: OSHA
+  title: "OSHA Formaldehyde Standard 29 CFR 1910.1048"
+  url: "https://www.osha.gov/formaldehyde"
+  note: "OSHA permissible exposure limit 0.75 ppm 8-hour TWA; requires hazard communication and exposure controls"
+
+eu-cosmetics-annex-ii:
+  type: regulatory
+  org: "EU Commission"
+  title: "Regulation (EC) No 1223/2009 Annex II: List of Substances Prohibited in Cosmetic Products"
+  url: "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en"
+  note: "EU Cosmetics Regulation Annex II prohibits over 1,600 substances including mercury compounds, lead compounds, certain phthalates, and formaldehyde in cosmetic products"
+
+fda-lead-cosmetics:
+  type: regulatory
+  org: FDA
+  title: "FDA Guidance on Lead in Cosmetic Lip Products and Externally Applied Cosmetics"
+  year: 2016
+  url: "https://www.fda.gov/cosmetics/potential-contaminants-cosmetics/lead-cosmetic-lip-products-and-externally-applied-cosmetics-recommended-maximum-level"
+  note: "FDA recommends lead impurities not exceed 10 ppm in lip products and externally applied cosmetics; warns against traditional eye cosmetics (kohl, kajal, surma) that may contain high levels of lead"
+
+cdc-lead-exposure:
+  type: regulatory
+  org: CDC
+  title: "CDC: Lead Exposure During Pregnancy"
+  url: "https://www.cdc.gov/nceh/lead/prevention/pregnant.htm"
+  note: "No safe level of lead exposure; lead crosses placenta and can cause developmental and neurological harm to fetus"
+
+fda-phthalates-cosmetics:
+  type: regulatory
+  org: FDA
+  title: "FDA: Phthalates in Cosmetics"
+  url: "https://www.fda.gov/cosmetics/cosmetic-ingredients/phthalates-cosmetics"
+  note: "Discusses DBP, DMP, DEP in cosmetics; notes lack of complete ingredient labeling for fragrance components which may contain phthalates"
+
+who-mercury-skin-lightening:
+  type: guideline
+  org: WHO
+  title: "WHO: Mercury in Skin Lightening Products"
+  year: 2019
+  url: "https://www.who.int/publications/i/item/WHO-CED-PHE-EPE-19.13"
+  note: "WHO identifies mercury-containing skin lightening products as a public health concern; mercury is a potent neurotoxin; pregnant women and infants are most at risk"
+
+tisserand-young-eo-safety:
+  type: review
+  org: "Tisserand Institute"
+  title: "Essential Oil Safety: A Guide for Health Care Professionals (2nd Edition)"
+  authors: "Tisserand R, Young R"
+  year: 2014
+  note: "Standard reference for essential oil safety; identifies oils contraindicated in pregnancy including pennyroyal, tansy, wintergreen (methyl salicylate), savin, sage, wormwood, and others"
+
+naha-pregnancy-safety:
+  type: guideline
+  org: NAHA
+  title: "National Association for Holistic Aromatherapy: Safety Information"
+  url: "https://naha.org/explore-aromatherapy/safety"
+  note: "NAHA professional guidance on essential oil safety in pregnancy, nursing, and pediatric use"
+
+acog-skincare-pregnancy-2021:
+  type: guideline
+  org: ACOG
+  title: "Skin Conditions During Pregnancy FAQ"
+  year: 2021
+  url: "https://www.acog.org/womens-health/faqs/skin-conditions-during-pregnancy"
+  note: "ACOG patient guidance on pregnancy-safe skincare; avoid retinoids and hydroquinone; limited salicylic acid OK; chemical sunscreens limited data"

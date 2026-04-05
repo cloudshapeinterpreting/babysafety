@@ -1,0 +1,103 @@
+id: lead_cosmetics
+name: Lead (in Cosmetics)
+aliases:
+  - Lead
+  - Lead Acetate
+  - Pb
+  - Kohl
+  - Al-Kahal
+  - Kajal
+  - Surma
+  - Tiro
+  - Tozali
+  - Kwalli
+  - Black Galena
+cas_number: "7439-92-1"
+
+category: toxic_contaminant
+product_types:
+  - skincare
+  - cosmetics
+  - eye_cosmetics
+
+safety:
+  pregnancy:
+    rating: avoid
+    summary: >
+      Potent neurotoxin that crosses the placenta. No safe level of
+      lead exposure during pregnancy. Found in traditional eye
+      cosmetics (kohl, kajal, surma, tiro) and as a trace contaminant
+      in some lipsticks and eye shadows. FDA and CDC warn pregnant
+      women to avoid these products.
+    details: >
+      Lead is a heavy metal neurotoxin with no safe exposure level.
+      The CDC and FDA state that lead crosses the placenta freely and
+      can cause miscarriage, developmental delay, and permanent
+      neurological harm to the fetus.
+
+      The highest-concentration source in cosmetics is traditional
+      eye cosmetics sold under various names: kohl, kajal, surma,
+      tiro, tozali, kwalli. FDA testing has found some of these
+      products contain lead at levels of 50 percent or more. These
+      products are imported from South Asia, the Middle East, and
+      parts of Africa and are sometimes sold as "natural" or
+      "traditional" alternatives to mainstream eyeliner. The FDA
+      warns that these should NOT be used, especially on children
+      or during pregnancy.
+
+      Trace lead also appears as an impurity in some mainstream
+      lipsticks and eye shadows at concentrations well below the
+      FDA recommendation of 10 ppm. These lower levels are not a
+      pregnancy emergency but the cumulative exposure recommendation
+      is still to minimize use.
+    dose_dependent: true
+    exposure_route: multiple
+
+  nursing:
+    rating: avoid
+    summary: >
+      Lead transfers to breast milk. Avoid all lead-containing
+      cosmetics during lactation.
+    details: >
+      Maternal lead stored in bone is released during pregnancy and
+      lactation, so any additional lead exposure during these periods
+      compounds the risk to the infant.
+    dose_dependent: true
+    exposure_route: multiple
+
+  baby:
+    rating: avoid
+    summary: >
+      Never apply kohl, kajal, surma, or other traditional eye
+      cosmetics to infants. FDA specifically warns against this.
+    details: >
+      Despite the cultural tradition of applying kohl to infants'
+      eyes in some communities for protection or aesthetic reasons,
+      the FDA explicitly warns against this practice. Infant
+      absorption of lead is higher than adults, and the developing
+      nervous system is especially vulnerable.
+    min_safe_age_months: null
+    exposure_route: multiple
+
+sources:
+  - ref: fda-lead-cosmetics
+  - ref: cdc-lead-exposure
+  - ref: eu-cosmetics-annex-ii
+
+safer_alternatives:
+  - name: FDA-approved cosmetic eyeliners
+    id: null
+    note: "Mainstream commercial eyeliners sold in regulated markets"
+
+notes: >
+  This entry primarily guards against imported traditional eye
+  cosmetics rather than mainstream US products (which contain only
+  trace lead as an impurity). It is important because kohl/kajal/
+  surma are widely available at specialty stores and online and may
+  be mistakenly assumed to be safer because they are "natural" or
+  "traditional." They are not. If a pregnant woman, nursing mother,
+  or infant has been using any of these products, discontinuation is
+  urgent and a blood lead test may be warranted -- consult a
+  healthcare provider.
+last_reviewed: "2026-04-05"
+confidence: high

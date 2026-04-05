@@ -1,0 +1,97 @@
+id: mercury_cosmetics
+name: Mercury (in Cosmetics)
+aliases:
+  - Mercury
+  - Mercurous Chloride
+  - Calomel
+  - Mercuric Chloride
+  - Ammoniated Mercury
+  - Mercuric Iodide
+  - Mercurio
+  - Hg
+  - Cinnabaris
+  - Hydrargyri Oxidum Rubrum
+cas_number: "7439-97-6"
+
+category: toxic_contaminant
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: avoid
+    summary: >
+      Potent neurotoxin that crosses the placenta. Found in some
+      imported skin-lightening creams and soaps, kohl eye cosmetics,
+      and counterfeit products. No safe exposure level during
+      pregnancy. WHO, FDA, and EU have all issued warnings.
+    details: >
+      Mercury is a potent neurotoxin that readily crosses the
+      placental barrier and accumulates in the fetal brain, where it
+      can cause severe neurodevelopmental harm. Organic mercury
+      compounds are especially dangerous. The EU Cosmetics Regulation
+      prohibits mercury compounds in cosmetics (Annex II). The FDA
+      limits mercury in cosmetics to trace contaminant levels (1 ppm).
+
+      The WHO has identified mercury-containing skin lightening
+      products as a major public health concern, particularly in
+      imports from certain countries. These products may be sold in
+      specialty stores, online, or shipped from abroad, and may not
+      disclose mercury on the label.
+
+      Warning signs: unlabeled or foreign-language skin lightening
+      creams; products with claims like "anti-aging spot fader,"
+      "skin whitening," or "freckle remover" from unregulated
+      sources; products that cause rapid skin lightening; traditional
+      eye cosmetics (kohl, kajal, surma) which may contain mercury
+      or lead.
+    dose_dependent: false
+    exposure_route: multiple
+
+  nursing:
+    rating: avoid
+    summary: >
+      Mercury transfers to breast milk and to the infant. Avoid all
+      mercury-containing products during lactation.
+    dose_dependent: false
+    exposure_route: multiple
+
+  baby:
+    rating: avoid
+    summary: >
+      Never use mercury-containing cosmetics on infants or children.
+      Especially avoid traditional eye cosmetics of unknown
+      provenance.
+    min_safe_age_months: null
+    exposure_route: multiple
+
+sources:
+  - ref: who-mercury-cosmetics
+  - ref: who-mercury-skin-lightening
+  - ref: fda-lead-cosmetics
+  - ref: eu-cosmetics-annex-ii
+
+safer_alternatives:
+  - name: Azelaic Acid
+    id: null
+    note: "Safe brightening option in pregnancy per ACOG"
+  - name: Niacinamide
+    id: null
+    note: "Safe for pigmentation and skin tone during pregnancy"
+  - name: Vitamin C
+    id: null
+    note: "Safe antioxidant with brightening effects"
+
+notes: >
+  Mercury in cosmetics is illegal in most regulated markets but
+  continues to appear in imported and counterfeit products,
+  especially skin lighteners. This entry will not match on most US
+  drugstore products. It exists so that the tool can flag
+  "skin lightening," "fairness cream," or kohl/kajal/surma products
+  that may contain mercury. If a product is from an unfamiliar
+  import source and makes skin-lightening claims, the safest
+  assumption is to avoid it. The concern is so high that the WHO
+  runs a specific campaign on mercury-containing skin lighteners.
+last_reviewed: "2026-04-05"
+confidence: high

@@ -1,0 +1,89 @@
+id: minoxidil
+name: Minoxidil
+aliases:
+  - Rogaine
+  - 2,4-Diamino-6-piperidinopyrimidine-3-oxide
+  - Loniten
+  - Regaine
+cas_number: "38304-91-5"
+
+category: hair_growth_drug
+product_types:
+  - skincare
+  - hair_care
+
+safety:
+  pregnancy:
+    rating: avoid
+    summary: >
+      Topical hair growth drug. Limited human pregnancy data;
+      animal studies showed fetal effects. MotherToBaby and the
+      manufacturer advise against use during pregnancy.
+    details: >
+      Minoxidil is an FDA-approved topical drug for androgenetic
+      alopecia (pattern hair loss), sold OTC as Rogaine in the US.
+      Originally developed as an oral antihypertensive, topical
+      minoxidil has measurable systemic absorption (approximately
+      0.3-4.5 percent depending on vehicle and skin condition).
+
+      Animal reproductive studies have shown increased fetal
+      resorption and developmental effects at high doses.
+      MotherToBaby notes there is limited human data, but case
+      reports have described birth defects following maternal use.
+      The manufacturer's labeling advises against use during
+      pregnancy. Given the availability of hair loss management
+      options that can wait until postpartum, MotherToBaby and most
+      providers recommend discontinuing minoxidil during pregnancy.
+
+      Pregnancy itself frequently causes postpartum hair shedding
+      (telogen effluvium) which resolves naturally within 6-12
+      months -- minoxidil is not indicated for this normal
+      postpartum change.
+    dose_dependent: true
+    exposure_route: topical
+
+  nursing:
+    rating: caution
+    summary: >
+      Limited lactation data. Systemic absorption is low but the
+      drug is detected in blood and could transfer to milk. Most
+      providers recommend avoiding during nursing as well.
+    details: >
+      LactMed notes limited data on minoxidil transfer to breast
+      milk. Given the availability of alternative hair loss
+      management strategies during lactation, most providers
+      recommend holding off on minoxidil until nursing is
+      complete.
+    dose_dependent: true
+    exposure_route: topical
+
+  baby:
+    rating: avoid
+    summary: >
+      Not indicated for infants or children. Manufacturer labeling
+      restricts OTC use to adults 18 and older.
+    min_safe_age_months: null
+    exposure_route: topical
+
+sources:
+  - ref: mothertobaby-minoxidil
+  - ref: fda-retinoid-pregnancy
+
+safer_alternatives:
+  - name: Postpone treatment until after nursing
+    id: null
+    note: "Hair loss management options including minoxidil can resume after breastfeeding ends"
+  - name: Gentle hair care and nutrition
+    id: null
+    note: "During pregnancy and lactation, focus on scalp health, nutrition, and stress management rather than pharmacologic treatment"
+
+notes: >
+  Minoxidil is sometimes marketed in higher-concentration (5 percent
+  men's formula) and lower-concentration (2 percent women's formula)
+  versions; the pregnancy recommendation to avoid applies to both.
+  Oral minoxidil (prescription) is more clearly contraindicated in
+  pregnancy. Postpartum hair shedding is a normal physiologic
+  response to hormonal changes and typically resolves within a year
+  without treatment.
+last_reviewed: "2026-04-05"
+confidence: moderate

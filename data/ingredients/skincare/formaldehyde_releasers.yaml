@@ -1,0 +1,118 @@
+id: formaldehyde_releasers
+name: Formaldehyde and Formaldehyde-Releasing Preservatives
+aliases:
+  - Formaldehyde
+  - Formalin
+  - Methylene Glycol
+  - Methanal
+  - Methyl Aldehyde
+  - Paraformaldehyde
+  - DMDM Hydantoin
+  - Quaternium-15
+  - Imidazolidinyl Urea
+  - Diazolidinyl Urea
+  - Bronopol
+  - 2-Bromo-2-Nitropropane-1,3-Diol
+  - Sodium Hydroxymethylglycinate
+  - Glyoxal
+  - 1,3-Dimethylol-5,5-Dimethylhydantoin
+cas_number: "50-00-0"
+
+category: preservative_formaldehyde_releaser
+product_types:
+  - skincare
+  - cosmetics
+  - hair_care
+
+safety:
+  pregnancy:
+    rating: avoid
+    summary: >
+      Formaldehyde is an IARC Group 1 (known human) carcinogen.
+      Formaldehyde-releasing preservatives slowly liberate
+      formaldehyde in products. Pregnancy concern is cumulative and
+      inhalation exposure, especially from hair-smoothing (keratin)
+      treatments where FDA/OSHA have issued hazard alerts.
+    details: >
+      Formaldehyde has been classified by IARC as Group 1 (carcinogenic
+      to humans) with sufficient evidence for nasopharyngeal cancer
+      and leukemia. The formaldehyde-releasing preservative class
+      (DMDM hydantoin, quaternium-15, imidazolidinyl urea,
+      diazolidinyl urea, bronopol, methylene glycol, paraformaldehyde,
+      sodium hydroxymethylglycinate) is designed to slowly release
+      small amounts of formaldehyde to preserve cosmetic products.
+      The EU has restricted or banned many of these in cosmetics.
+
+      The most significant pregnancy exposure pathway is NOT leave-on
+      lotions at normal use concentrations but rather hair-smoothing
+      treatments (Brazilian blowout, keratin treatments). FDA and
+      OSHA have issued hazard alerts about these treatments, which
+      can release formaldehyde in the breathing zone at levels far
+      above safe limits during application. Salon workers and clients
+      have reported respiratory distress, nosebleeds, and eye
+      irritation.
+
+      Pregnant women should: avoid keratin/hair-smoothing treatments
+      entirely; check product labels for the preservatives listed
+      above and prefer paraben-free or phenoxyethanol-preserved
+      alternatives; ensure good ventilation when applying products
+      containing these preservatives.
+    dose_dependent: true
+    exposure_route: multiple
+
+  nursing:
+    rating: caution
+    summary: >
+      Minimize exposure during nursing; avoid keratin smoothing
+      treatments. Low-concentration leave-on cosmetic use has
+      minimal systemic absorption.
+    details: >
+      Cosmetic use at preservative-only concentrations (below 0.2
+      percent releasable formaldehyde per EU standards) is unlikely
+      to result in meaningful systemic exposure or milk transfer.
+      The main concern during nursing remains inhalation exposure
+      from salon hair treatments.
+    dose_dependent: true
+    exposure_route: multiple
+
+  baby:
+    rating: caution
+    summary: >
+      Known skin sensitizer. Can cause contact dermatitis. EU has
+      restricted use in products for children under 3.
+    details: >
+      Formaldehyde-releasing preservatives are among the top causes
+      of cosmetic contact dermatitis. For infants and sensitive skin,
+      prefer products preserved with phenoxyethanol or organic acids
+      instead.
+    min_safe_age_months: null
+    exposure_route: topical
+
+sources:
+  - ref: iarc-formaldehyde
+  - ref: fda-keratin-formaldehyde-alert
+  - ref: osha-formaldehyde
+  - ref: eu-cosmetics-annex-ii
+
+safer_alternatives:
+  - name: Phenoxyethanol
+    id: null
+    note: "Common alternative cosmetic preservative; generally considered safer"
+  - name: Sodium Benzoate / Potassium Sorbate
+    id: null
+    note: "Organic acid preservatives used in natural formulations"
+  - name: Ethylhexylglycerin
+    id: null
+    note: "Often paired with phenoxyethanol as a preservative booster"
+
+notes: >
+  This is a class entry covering formaldehyde itself plus the
+  formaldehyde-releasing preservative family. If you see any of the
+  aliases listed above on a product label, this entry applies. The
+  single biggest pregnancy concern in this class is keratin smoothing
+  treatments, which can expose both salon workers and clients to
+  formaldehyde vapor at levels far above OSHA limits. The concern for
+  routine cosmetic leave-on products is much lower but non-zero for
+  cumulative or sensitized exposure.
+last_reviewed: "2026-04-05"
+confidence: high
