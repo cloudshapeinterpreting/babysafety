@@ -8,6 +8,7 @@ from pathlib import Path
 from .models import (
     Alternative,
     Confidence,
+    EvidenceStrength,
     Ingredient,
     Rating,
     Source,
@@ -31,10 +32,17 @@ def _parse_source(raw: dict) -> Source:
         url=raw.get("url"),
         finding=raw.get("finding"),
         note=raw.get("note"),
+        primary=raw.get("primary", False),
     )
 
 
 def _parse_stage_safety(raw: dict) -> StageSafety:
+    evidence_str = raw.get("evidence_strength", "moderate")
+    evidence_strength = (
+        EvidenceStrength(evidence_str)
+        if evidence_str in [e.value for e in EvidenceStrength]
+        else EvidenceStrength.MODERATE
+    )
     return StageSafety(
         rating=Rating(raw["rating"]),
         summary=raw.get("summary", "").strip(),
@@ -42,6 +50,7 @@ def _parse_stage_safety(raw: dict) -> StageSafety:
         dose_dependent=raw.get("dose_dependent", False),
         exposure_route=raw.get("exposure_route", "topical"),
         min_safe_age_months=raw.get("min_safe_age_months"),
+        evidence_strength=evidence_strength,
     )
 
 
@@ -57,8 +66,14 @@ def _parse_ingredient(raw: dict) -> Ingredient:
         for a in raw.get("safer_alternatives", [])
     ]
 
-    conf_str = raw.get("confidence", "insufficient")
-    confidence = Confidence(conf_str) if conf_str in [c.value for c in Confidence] else Confidence.INSUFFICIENT
+    # Accept the new `rating_confidence` field, falling back to the legacy
+    # `confidence` key for YAML files that haven't been migrated yet.
+    conf_str = raw.get("rating_confidence", raw.get("confidence", "moderate"))
+    rating_confidence = (
+        Confidence(conf_str)
+        if conf_str in [c.value for c in Confidence]
+        else Confidence.MODERATE
+    )
 
     return Ingredient(
         id=raw["id"],
@@ -72,7 +87,7 @@ def _parse_ingredient(raw: dict) -> Ingredient:
         safer_alternatives=alternatives,
         notes=raw.get("notes", "").strip(),
         last_reviewed=raw.get("last_reviewed", ""),
-        confidence=confidence,
+        rating_confidence=rating_confidence,
     )
 
 

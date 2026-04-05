@@ -9,6 +9,7 @@ INGREDIENTS_DIR = DATA_DIR / "ingredients"
 
 VALID_RATINGS = {"safe", "caution", "avoid", "insufficient_data"}
 VALID_CONFIDENCE = {"high", "moderate", "low", "insufficient"}
+VALID_EVIDENCE_STRENGTH = {"definitive", "strong", "moderate", "limited"}
 VALID_EXPOSURE_ROUTES = {"topical", "oral", "inhalation", "multiple"}
 REQUIRED_FIELDS = {"id", "name", "category", "product_types", "safety", "sources"}
 REQUIRED_STAGE_FIELDS = {"rating", "summary"}
@@ -64,12 +65,26 @@ class TestDataIntegrity:
                         f"{path.name}/{stage_name}: invalid rating '{stage['rating']}'"
                     )
 
-    def test_valid_confidence(self):
+    def test_valid_rating_confidence(self):
+        """rating_confidence (or legacy `confidence`) must be a valid enum value."""
         for path, data in self.ingredients:
-            if "confidence" in data:
-                assert data["confidence"] in VALID_CONFIDENCE, (
-                    f"{path.name}: invalid confidence '{data['confidence']}'"
+            value = data.get("rating_confidence", data.get("confidence"))
+            if value is not None:
+                assert value in VALID_CONFIDENCE, (
+                    f"{path.name}: invalid rating_confidence '{value}'"
                 )
+
+    def test_valid_evidence_strength(self):
+        """evidence_strength on each stage must be a valid enum value if set."""
+        for path, data in self.ingredients:
+            for stage_name in ("pregnancy", "nursing", "baby"):
+                if stage_name in data.get("safety", {}):
+                    stage = data["safety"][stage_name]
+                    if "evidence_strength" in stage:
+                        assert stage["evidence_strength"] in VALID_EVIDENCE_STRENGTH, (
+                            f"{path.name}/{stage_name}: invalid evidence_strength "
+                            f"'{stage['evidence_strength']}'"
+                        )
 
     def test_valid_exposure_routes(self):
         for path, data in self.ingredients:
