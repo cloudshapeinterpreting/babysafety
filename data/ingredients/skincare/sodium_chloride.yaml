@@ -1,0 +1,61 @@
+id: sodium_chloride
+name: Sodium Chloride
+aliases:
+  - Salt
+  - Table Salt
+  - Sea Salt
+  - NaCl
+  - Halite
+cas_number: "7647-14-5"
+
+category: viscosity_adjuster
+product_types:
+  - skincare
+  - baby_products
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Inert mineral salt. CIR-reviewed safe in cosmetics. Used as a
+      viscosity adjuster and mild astringent at cosmetic
+      concentrations.
+    details: >
+      Sodium chloride (common salt) is used in cosmetic formulations
+      primarily to adjust the viscosity of surfactant systems and as
+      a mild tonic/astringent. It is chemically inert at the
+      concentrations used in cosmetics and is an essential dietary
+      mineral. The CIR expert panel concluded sodium chloride is
+      safe in cosmetic formulations. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. An essential dietary mineral; topical
+      cosmetic use poses no concerns.
+    dose_dependent: false
+    exposure_route: topical
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in topical cosmetic use at standard
+      concentrations.
+    min_safe_age_months: 0
+    exposure_route: topical
+
+sources:
+  - ref: cir-sodium-chloride
+  - ref: fda-skin-protectant-monograph
+
+safer_alternatives: []
+
+notes: >
+  Sodium chloride in cosmetics serves mainly as a thickener for
+  surfactant systems (e.g., in shampoos and body washes). At the low
+  concentrations used, it is not drying or irritating.
+last_reviewed: "2026-04-05"
+confidence: high

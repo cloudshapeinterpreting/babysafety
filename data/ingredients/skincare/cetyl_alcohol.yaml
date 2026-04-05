@@ -1,0 +1,63 @@
+id: cetyl_alcohol
+name: Cetyl Alcohol
+aliases:
+  - 1-Hexadecanol
+  - Palmityl Alcohol
+  - Hexadecan-1-ol
+  - n-Hexadecyl Alcohol
+cas_number: "36653-82-4"
+
+category: fatty_alcohol
+product_types:
+  - skincare
+  - baby_products
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      A fatty alcohol used as an emulsifier and thickener. NOT a drying
+      alcohol (despite the name). CIR-reviewed safe. No pregnancy
+      concerns.
+    details: >
+      Cetyl alcohol is a long-chain fatty alcohol (C16), structurally
+      and functionally distinct from the short-chain "drying" alcohols
+      like ethanol or isopropanol. It is used in lotions and creams as
+      an emulsifier (helping oil and water phases mix) and as a
+      thickener/emollient. It is actually moisturizing, not drying.
+      The CIR expert panel concluded cetyl alcohol and related fatty
+      alcohols are safe in cosmetic formulations. No systemic
+      absorption concerns at topical cosmetic use.
+    dose_dependent: false
+    exposure_route: topical
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. Widely used in dermatologist-recommended
+      moisturizers.
+    dose_dependent: false
+    exposure_route: topical
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants. Common emulsifier in baby lotions and creams.
+    min_safe_age_months: 0
+    exposure_route: topical
+
+sources:
+  - ref: cir-cetyl-alcohol
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Common misconception: consumers see "alcohol" in the name and assume
+  it is drying or harsh. Cetyl alcohol is a waxy solid at room
+  temperature and functions as an emollient, not a solvent. It is
+  found in essentially all dermatologist-recommended moisturizers and
+  barrier creams.
+last_reviewed: "2026-04-05"
+confidence: high

@@ -1,0 +1,58 @@
+id: water
+name: Water
+aliases:
+  - Aqua
+  - Eau
+  - Purified Water
+  - H2O
+cas_number: "7732-18-5"
+
+category: solvent
+product_types:
+  - skincare
+  - baby_products
+  - cleaning
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Universal solvent; inert base ingredient in cosmetics. No safety
+      concerns during pregnancy.
+    details: >
+      Water (Aqua) is the most common ingredient in water-based cosmetic
+      formulations, serving as the solvent for all water-soluble components.
+      It has no pharmacological activity and no known safety concerns at
+      any life stage.
+    dose_dependent: false
+    exposure_route: topical
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. Inert solvent with no systemic effects.
+    details: >
+      No transfer concerns; water is a universal biological solvent.
+    dose_dependent: false
+    exposure_route: topical
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants and children. Used in virtually all baby skincare
+      and bath products.
+    min_safe_age_months: 0
+    exposure_route: topical
+
+sources:
+  - ref: fda-skin-protectant-monograph
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Water is listed here for completeness so that ingredient-list checks
+  achieve full coverage. It is typically the first ingredient in
+  water-based lotions and creams.
+last_reviewed: "2026-04-05"
+confidence: high

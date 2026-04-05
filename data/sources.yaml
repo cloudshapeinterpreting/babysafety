@@ -88,3 +88,113 @@ aap-aspirin-reye:
   org: AAP
   title: "Reye Syndrome and Salicylate Use"
   note: "Systemic salicylates contraindicated in children due to Reye syndrome risk"
+
+# --- CIR (Cosmetic Ingredient Review) expert panel safety assessments ---
+# Independent industry-funded but peer-reviewed safety reviews for cosmetic
+# ingredients; widely cited by FDA, EU SCCS, and regulators.
+
+cir-glycerin:
+  type: review
+  org: CIR
+  title: "Final Report on the Safety Assessment of Glycerin"
+  journal: "International Journal of Toxicology"
+  year: 2019
+  url: "https://www.cir-safety.org/ingredients"
+  note: "CIR expert panel concluded glycerin is safe in the present practices of use and concentration in cosmetics"
+
+cir-dimethicone:
+  type: review
+  org: CIR
+  title: "Safety Assessment of Dimethicone and Related Polymers as Used in Cosmetics"
+  journal: "International Journal of Toxicology"
+  year: 2021
+  url: "https://www.cir-safety.org/ingredients"
+  note: "CIR concluded dimethicone and related silicone polymers are safe in cosmetic use"
+
+cir-cetyl-alcohol:
+  type: review
+  org: CIR
+  title: "Safety Assessment of Cetyl Alcohol, Stearyl Alcohol, and Related Fatty Alcohols"
+  journal: "International Journal of Toxicology"
+  year: 2020
+  url: "https://www.cir-safety.org/ingredients"
+  note: "CIR concluded fatty alcohols including cetyl alcohol are safe in cosmetic formulations; these are emulsifiers and emollients, not drying alcohols"
+
+cir-alkonium-chlorides:
+  type: review
+  org: CIR
+  title: "Safety Assessment of Alkonium Chlorides as Used in Cosmetics"
+  journal: "International Journal of Toxicology"
+  year: 2018
+  url: "https://www.cir-safety.org/ingredients"
+  note: "CIR concluded benzalkonium chloride is safe as used in cosmetics at concentrations up to 0.1 percent in leave-on products"
+
+cir-isopropyl-esters:
+  type: review
+  org: CIR
+  title: "Safety Assessment of Isopropyl Esters as Used in Cosmetics (including Isopropyl Palmitate)"
+  journal: "International Journal of Toxicology"
+  year: 2019
+  url: "https://www.cir-safety.org/ingredients"
+  note: "CIR concluded isopropyl palmitate and related isopropyl esters are safe in cosmetic use"
+
+cir-quaternary-ammonium:
+  type: review
+  org: CIR
+  title: "Safety Assessment of Quaternium Compounds (including Distearyldimonium Chloride)"
+  journal: "International Journal of Toxicology"
+  year: 2019
+  url: "https://www.cir-safety.org/ingredients"
+  note: "CIR concluded quaternary ammonium conditioning agents including distearyldimonium chloride are safe in cosmetic use with minimal skin penetration"
+
+cir-sodium-chloride:
+  type: review
+  org: CIR
+  title: "Safety Assessment of Sodium Chloride as Used in Cosmetics"
+  year: 2017
+  url: "https://www.cir-safety.org/ingredients"
+  note: "CIR concluded sodium chloride is safe in cosmetic formulations"
+
+# --- FDA OTC drug monographs ---
+
+fda-skin-protectant-monograph:
+  type: regulatory
+  org: FDA
+  title: "Skin Protectant Drug Products for Over-the-Counter Human Use, Final Monograph (21 CFR 347)"
+  year: 2003
+  url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-347"
+  note: "Recognizes petrolatum, dimethicone, and colloidal oatmeal (avena sativa kernel flour) as Category I (safe and effective) OTC skin protectants"
+
+# --- American Academy of Dermatology guidance ---
+
+aad-pregnancy-skincare:
+  type: guideline
+  org: AAD
+  title: "Skin Care During Pregnancy"
+  url: "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/pregnancy-skin-care"
+  note: "AAD guidance on pregnancy-safe skincare; recommends gentle moisturizers with petrolatum, glycerin, hyaluronic acid, and mineral sunscreen"
+
+# --- Nursing-specific references ---
+
+lactmed:
+  type: database
+  org: NIH
+  title: "LactMed Database (Drugs and Lactation Database)"
+  url: "https://www.ncbi.nlm.nih.gov/books/NBK501922/"
+  note: "NIH National Library of Medicine peer-reviewed database of drugs and chemicals that breastfeeding mothers may be exposed to; authoritative source for lactation safety"
+
+mother-to-baby:
+  type: guideline
+  org: OTIS
+  title: "MotherToBaby Fact Sheets"
+  url: "https://mothertobaby.org/fact-sheets-parent/"
+  note: "Organization of Teratology Information Specialists (OTIS) evidence-based fact sheets on exposures during pregnancy and breastfeeding"
+
+# --- EU Scientific Committee on Consumer Safety ---
+
+eu-sccs-cosmetic-safety:
+  type: regulatory
+  org: "EU SCCS"
+  title: "Scientific Committee on Consumer Safety Opinions on Cosmetic Ingredients"
+  url: "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en"
+  note: "EU SCCS provides independent scientific opinions on the safety of cosmetic ingredients in the EU market"

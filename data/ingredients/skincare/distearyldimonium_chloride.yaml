@@ -1,0 +1,60 @@
+id: distearyldimonium_chloride
+name: Distearyldimonium Chloride
+aliases:
+  - Distearyl Dimonium Chloride
+  - Distearyldimethylammonium Chloride
+  - DSDMAC
+cas_number: "107-64-2"
+
+category: conditioning_agent
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      A quaternary ammonium conditioning agent. CIR-reviewed safe in
+      cosmetics at used concentrations. Minimal skin penetration.
+    details: >
+      Distearyldimonium chloride is a quaternary ammonium compound
+      used in lotions and hair care products as a conditioning and
+      antistatic agent. The CIR expert panel concluded quaternary
+      ammonium conditioning agents including distearyldimonium
+      chloride are safe in cosmetic use with minimal skin penetration.
+      The long stearyl chains make the molecule substantially larger
+      and less penetrating than smaller quaternary ammonium compounds
+      used as surfactants.
+    dose_dependent: false
+    exposure_route: topical
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. No systemic absorption concerns from
+      topical cosmetic use.
+    dose_dependent: false
+    exposure_route: topical
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+
+sources:
+  - ref: cir-quaternary-ammonium
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Distearyldimonium chloride is sometimes confused with benzalkonium
+  chloride or other short-chain quaternary ammonium preservatives.
+  The long fatty chains make it function as a conditioning agent
+  rather than an antimicrobial, with correspondingly lower irritation
+  potential.
+last_reviewed: "2026-04-05"
+confidence: moderate

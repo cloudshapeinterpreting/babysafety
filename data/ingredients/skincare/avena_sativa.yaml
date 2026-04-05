@@ -1,0 +1,69 @@
+id: avena_sativa
+name: Avena Sativa (Oat) Kernel Flour
+aliases:
+  - Colloidal Oatmeal
+  - Oat Kernel Flour
+  - Avena Sativa Kernel Flour
+  - Oat Flour
+  - Oatmeal
+cas_number: "84012-26-0"
+
+category: botanical_skin_protectant
+product_types:
+  - skincare
+  - baby_products
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      FDA-approved Category I OTC skin protectant. Soothing botanical
+      ingredient widely used in dermatologist-recommended products.
+    details: >
+      Colloidal oatmeal (Avena sativa kernel flour) is recognized by
+      the FDA as a Category I (safe and effective) OTC skin protectant
+      under 21 CFR 347. It contains beta-glucans, avenanthramides, and
+      saponins that provide anti-inflammatory, antioxidant, and
+      barrier-supporting effects. It is the active ingredient in many
+      products formulated for sensitive skin, eczema, and itch relief,
+      including during pregnancy. The American Academy of Dermatology
+      recognizes colloidal oatmeal as a safe and effective treatment
+      for pregnancy-related itch and skin sensitivity.
+    dose_dependent: false
+    exposure_route: topical
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. Topical colloidal oatmeal is widely used in
+      products for nursing mothers including for cracked nipples and
+      soothing baths.
+    dose_dependent: false
+    exposure_route: topical
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants. Colloidal oatmeal baths are commonly recommended
+      for infant eczema and diaper rash.
+    details: >
+      The AAP and AAD recognize colloidal oatmeal as safe for infants,
+      including those with atopic dermatitis.
+    min_safe_age_months: 0
+    exposure_route: topical
+
+sources:
+  - ref: fda-skin-protectant-monograph
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Important allergy note: individuals with documented oat allergy or
+  severe celiac disease with oat sensitivity should avoid oat-derived
+  skincare. True oat allergy is rare, but is a medical consideration
+  separate from pregnancy safety. For the general pregnant/nursing/
+  infant population, colloidal oatmeal is recognized as safe and is
+  widely recommended by dermatologists for sensitive skin.
+last_reviewed: "2026-04-05"
+confidence: high

@@ -1,0 +1,79 @@
+id: petrolatum
+name: Petrolatum
+aliases:
+  - Petroleum Jelly
+  - White Petrolatum
+  - Vaseline
+  - Soft Paraffin
+  - Mineral Jelly
+cas_number: "8009-03-8"
+
+category: emollient
+product_types:
+  - skincare
+  - baby_products
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Inert occlusive emollient. FDA-approved OTC skin protectant.
+      Dermatologist-recommended for pregnancy, including for common
+      pregnancy skin issues like stretch marks and eczema.
+    details: >
+      Petrolatum is a semi-solid mixture of hydrocarbons refined from
+      petroleum. Cosmetic- and pharmaceutical-grade petrolatum (USP) is
+      highly purified to remove any polycyclic aromatic hydrocarbons.
+      It is FDA-approved as a Category I (safe and effective) OTC skin
+      protectant under 21 CFR 347. It works by forming an occlusive
+      barrier on the skin surface, reducing transepidermal water loss.
+      It has no systemic absorption through intact skin and is
+      pharmacologically inert. The American Academy of Dermatology
+      specifically recommends petrolatum-based moisturizers during
+      pregnancy.
+    dose_dependent: false
+    exposure_route: topical
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. A primary ingredient in many nipple creams
+      recommended by lactation consultants for nursing mothers.
+    details: >
+      Petrolatum is the active ingredient in many nipple creams used
+      during breastfeeding (e.g., Lansinoh uses purified lanolin;
+      Aquaphor uses petrolatum). It is safe if ingested by the infant
+      in the small amounts that may transfer during feeding. No wiping
+      off before feeds is required.
+    dose_dependent: false
+    exposure_route: topical
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants from birth. Primary ingredient in many diaper
+      rash creams and barrier ointments recommended by pediatricians
+      and the AAP.
+    details: >
+      Petrolatum is widely used in infant care for diaper rash
+      prevention, dry skin, and eczema management. It is inert and
+      non-irritating even on delicate neonatal skin.
+    min_safe_age_months: 0
+    exposure_route: topical
+
+sources:
+  - ref: fda-skin-protectant-monograph
+  - ref: aad-pregnancy-skincare
+  - ref: lactmed
+
+safer_alternatives: []
+
+notes: >
+  Cosmetic and USP (pharmaceutical) grade petrolatum is highly refined
+  and distinct from industrial petroleum products. Dermatologists
+  consistently rank petrolatum among the safest and most effective
+  moisturizing agents. Concerns raised by anti-cosmetics media about
+  petrolatum sourcing do not apply to the refined grades used in
+  consumer skincare.
+last_reviewed: "2026-04-05"
+confidence: high

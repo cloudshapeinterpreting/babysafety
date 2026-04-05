@@ -50,7 +50,9 @@ def test_secondary_name_match():
 
 def test_no_match():
     db = _get_db()
-    parsed = ParsedIngredient(raw="Water", name="Water", position=0)
+    parsed = ParsedIngredient(
+        raw="Unobtanium Extract", name="Unobtanium Extract", position=0
+    )
     result = match_ingredient(db, parsed)
     assert result.ingredient is None
     assert result.matched_via == ""
@@ -68,7 +70,9 @@ def test_match_all():
     db = _get_db()
     parsed_list = [
         ParsedIngredient(raw="Retinol", name="Retinol", position=0),
-        ParsedIngredient(raw="Water", name="Water", position=1),
+        ParsedIngredient(
+            raw="Unobtanium Extract", name="Unobtanium Extract", position=1
+        ),
         ParsedIngredient(raw="Zinc Oxide", name="Zinc Oxide", position=2),
     ]
     results = match_all(db, parsed_list)

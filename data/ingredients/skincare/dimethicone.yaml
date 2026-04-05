@@ -1,0 +1,67 @@
+id: dimethicone
+name: Dimethicone
+aliases:
+  - Polydimethylsiloxane
+  - PDMS
+  - Dimethyl Silicone
+  - Dimethylpolysiloxane
+cas_number: "9006-65-9"
+
+category: silicone
+product_types:
+  - skincare
+  - baby_products
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Inert silicone polymer. FDA-approved OTC skin protectant.
+      Sits on skin surface with no systemic absorption.
+    details: >
+      Dimethicone is a synthetic silicone polymer used as a skin
+      protectant, emollient, and anti-foaming agent. It is FDA-approved
+      as a Category I (safe and effective) OTC skin protectant under
+      21 CFR 347. The molecule is too large to penetrate intact skin,
+      so there is no systemic absorption. The CIR expert panel
+      concluded dimethicone and related silicone polymers are safe in
+      cosmetic use. It also has a long history of safe use in
+      gastrointestinal medications (simethicone) as an anti-gas agent.
+    dose_dependent: false
+    exposure_route: topical
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. No systemic absorption from skin; no
+      pathway to breast milk.
+    details: >
+      Simethicone (an oral form of dimethicone) is routinely given
+      directly to infants with no absorption concerns, underscoring
+      the safety of this class of silicone.
+    dose_dependent: false
+    exposure_route: topical
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants. Common in baby barrier creams and diaper rash
+      products. Forms a breathable protective layer.
+    min_safe_age_months: 0
+    exposure_route: topical
+
+sources:
+  - ref: fda-skin-protectant-monograph
+  - ref: cir-dimethicone
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Dimethicone is the most common silicone in skincare and is well
+  characterized for safety. The "silicones are toxic" narrative is
+  not supported by the scientific literature on cosmetic dimethicones,
+  which are chemically distinct from industrial silicone products.
+last_reviewed: "2026-04-05"
+confidence: high

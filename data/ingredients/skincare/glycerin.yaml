@@ -1,0 +1,65 @@
+id: glycerin
+name: Glycerin
+aliases:
+  - Glycerol
+  - 1,2,3-Propanetriol
+  - Glycerine
+  - Vegetable Glycerin
+cas_number: "56-81-5"
+
+category: humectant
+product_types:
+  - skincare
+  - baby_products
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      One of the most widely used and thoroughly studied cosmetic
+      ingredients. CIR-reviewed safe. Recommended by AAD as a core
+      ingredient in pregnancy-safe moisturizers.
+    details: >
+      Glycerin is a humectant that draws water from the atmosphere and
+      deeper skin layers into the stratum corneum, improving hydration
+      and barrier function. The Cosmetic Ingredient Review expert panel
+      concluded glycerin is safe in present practices of use and
+      concentration in cosmetics. It is also used orally as a food
+      additive (GRAS by FDA) and in pharmaceuticals. No teratogenic
+      signals in the literature at topical cosmetic concentrations.
+    dose_dependent: false
+    exposure_route: topical
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. Negligible systemic absorption from topical
+      application; no concerns for breast milk transfer.
+    details: >
+      Glycerin is endogenously produced by the body as part of lipid
+      metabolism. Topical cosmetic use poses no risk during lactation.
+    dose_dependent: false
+    exposure_route: topical
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants. Common ingredient in baby moisturizers, diaper
+      creams, and gentle cleansers. Well-tolerated on delicate skin.
+    min_safe_age_months: 0
+    exposure_route: topical
+
+sources:
+  - ref: cir-glycerin
+  - ref: aad-pregnancy-skincare
+  - ref: fda-skin-protectant-monograph
+
+safer_alternatives: []
+
+notes: >
+  Glycerin is a cornerstone humectant in dermatologist-recommended
+  moisturizers. It is equally suitable for pregnancy, nursing, and
+  infant skincare.
+last_reviewed: "2026-04-05"
+confidence: high

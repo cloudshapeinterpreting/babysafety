@@ -1,0 +1,83 @@
+id: benzalkonium_chloride
+name: Benzalkonium Chloride
+aliases:
+  - BAC
+  - BKC
+  - BZK
+  - Alkyldimethylbenzylammonium Chloride
+  - Quaternary Ammonium Compounds (benzyl-C8-18-alkyldimethyl)
+  - ADBAC
+cas_number: "8001-54-5"
+
+category: preservative
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      CIR-safe at cosmetic concentrations (≤0.1% in leave-on products).
+      Low skin penetration; no systemic absorption concerns from intact
+      skin. Used as a preservative in many mainstream lotions.
+    details: >
+      Benzalkonium chloride is a quaternary ammonium compound used as
+      a preservative, antimicrobial, and surfactant in cosmetics and
+      some OTC topical antiseptics. The CIR expert panel concluded
+      benzalkonium chloride is safe as used in cosmetics at
+      concentrations up to 0.1% in leave-on products and higher in
+      rinse-off. It has low skin penetration through intact skin. In
+      leave-on lotion formulations at cosmetic concentrations, it
+      poses no systemic or reproductive concerns.
+    dose_dependent: true
+    exposure_route: topical
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing at cosmetic concentrations. Caution note:
+      avoid direct application to nipples or areola immediately before
+      feeding, or wipe the area clean first.
+    details: >
+      BAC does not transfer systemically in meaningful amounts from
+      cosmetic leave-on use. The main lactation consideration is
+      avoiding direct infant oral exposure by not applying products
+      containing BAC to the nipple/areola area right before
+      breastfeeding.
+    dose_dependent: true
+    exposure_route: topical
+
+  baby:
+    rating: caution
+    summary: >
+      Safe in intact-skin cosmetic products. Caution on broken skin,
+      mucous membranes, or eyes. Not recommended for application to
+      infant mucosal surfaces.
+    details: >
+      While CIR considers benzalkonium chloride safe in cosmetic
+      leave-on products, it is an irritant and potential sensitizer at
+      higher concentrations. Avoid use on broken skin, mucous
+      membranes, or around the eyes in infants. Standard cosmetic use
+      in baby lotions at preservative concentrations (≤0.1%) is
+      generally well-tolerated.
+    min_safe_age_months: 0
+    exposure_route: topical
+
+sources:
+  - ref: cir-alkonium-chlorides
+  - ref: aad-pregnancy-skincare
+  - ref: lactmed
+
+safer_alternatives:
+  - name: Phenoxyethanol
+    id: null
+    note: "Alternative cosmetic preservative with similar safety profile"
+
+notes: >
+  Benzalkonium chloride is also used in concentrated form in topical
+  antiseptics (e.g., Bactine), hand sanitizers, and contact lens
+  solutions. The concentrations used in cosmetic leave-on products
+  are much lower than these medicinal uses.
+last_reviewed: "2026-04-05"
+confidence: high

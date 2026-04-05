@@ -1,0 +1,59 @@
+id: isopropyl_palmitate
+name: Isopropyl Palmitate
+aliases:
+  - Palmitic Acid Isopropyl Ester
+  - Hexadecanoic Acid Isopropyl Ester
+  - IPP
+cas_number: "142-91-6"
+
+category: emollient
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      A synthetic ester used as an emollient and skin conditioning
+      agent. CIR-reviewed safe in cosmetics. No pregnancy concerns.
+    details: >
+      Isopropyl palmitate is the ester of isopropyl alcohol and palmitic
+      acid (a fatty acid found in palm oil, animal fats, and the human
+      body). It is used in lotions and creams for its light, spreadable
+      texture and skin conditioning properties. The CIR expert panel
+      concluded isopropyl palmitate and related isopropyl esters are
+      safe in cosmetic use. It has no known systemic toxicity and
+      does not raise pregnancy safety flags.
+    dose_dependent: false
+    exposure_route: topical
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. No systemic absorption concerns.
+    dose_dependent: false
+    exposure_route: topical
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants. Commonly used in baby lotions.
+    details: >
+      May be comedogenic for acne-prone skin but this is not a safety
+      concern.
+    min_safe_age_months: 0
+    exposure_route: topical
+
+sources:
+  - ref: cir-isopropyl-esters
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Isopropyl palmitate is a common light emollient. Some sources flag
+  it as comedogenic (pore-clogging) for acne-prone skin, but this is
+  a cosmetic tolerability issue, not a pregnancy or toxicity concern.
+last_reviewed: "2026-04-05"
+confidence: high
