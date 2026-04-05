@@ -34,7 +34,7 @@ safety:
       precaution. No safe threshold has been established for pregnancy.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: strong
   nursing:
     rating: caution
     summary: >
@@ -48,7 +48,7 @@ safety:
       given limited data.
     dose_dependent: true
     exposure_route: topical
-
+    evidence_strength: moderate
   baby:
     rating: avoid
     summary: >
@@ -59,7 +59,7 @@ safety:
       systemic absorption risk.
     min_safe_age_months: null
     exposure_route: topical
-
+    evidence_strength: strong
 sources:
   - ref: fda-retinoid-pregnancy
   - ref: acog-skin-care-pregnancy
@@ -92,4 +92,4 @@ notes: >
   Prescription forms include tretinoin, adapalene, and tazarotene.
   Isotretinoin (Accutane) is the highest-risk oral form.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

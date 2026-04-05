@@ -30,7 +30,7 @@ safety:
       signals in the literature at topical cosmetic concentrations.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: definitive
   nursing:
     rating: safe
     summary: >
@@ -41,7 +41,7 @@ safety:
       metabolism. Topical cosmetic use poses no risk during lactation.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: definitive
   baby:
     rating: safe
     summary: >
@@ -49,7 +49,7 @@ safety:
       creams, and gentle cleansers. Well-tolerated on delicate skin.
     min_safe_age_months: 0
     exposure_route: topical
-
+    evidence_strength: definitive
 sources:
   - ref: cir-glycerin
   - ref: aad-pregnancy-skincare
@@ -62,4 +62,4 @@ notes: >
   moisturizers. It is equally suitable for pregnancy, nursing, and
   infant skincare.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

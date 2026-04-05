@@ -26,7 +26,7 @@ safety:
       any life stage.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: definitive
   nursing:
     rating: safe
     summary: >
@@ -35,7 +35,7 @@ safety:
       No transfer concerns; water is a universal biological solvent.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: definitive
   baby:
     rating: safe
     summary: >
@@ -43,7 +43,7 @@ safety:
       and bath products.
     min_safe_age_months: 0
     exposure_route: topical
-
+    evidence_strength: definitive
 sources:
   - ref: fda-skin-protectant-monograph
   - ref: aad-pregnancy-skincare
@@ -55,4 +55,4 @@ notes: >
   achieve full coverage. It is typically the first ingredient in
   water-based lotions and creams.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

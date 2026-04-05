@@ -33,7 +33,7 @@ safety:
       coffee is ~95mg, 8oz black tea is ~47mg, 12oz cola is ~34mg.
     dose_dependent: true
     exposure_route: oral
-
+    evidence_strength: moderate
   nursing:
     rating: caution
     summary: >
@@ -49,7 +49,7 @@ safety:
       compatible with breastfeeding at moderate doses.
     dose_dependent: true
     exposure_route: oral
-
+    evidence_strength: moderate
   baby:
     rating: avoid
     summary: >
@@ -61,7 +61,7 @@ safety:
       of prematurity, given under medical supervision).
     min_safe_age_months: null
     exposure_route: oral
-
+    evidence_strength: moderate
 sources:
   - ref: acog-moderate-caffeine
   - ref: nih-caffeine-pregnancy
@@ -86,4 +86,4 @@ notes: >
   caffeine absorption is minimal and generally not a concern. The safety
   ratings above primarily apply to oral/dietary intake.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

@@ -27,14 +27,14 @@ safety:
       does not raise pregnancy safety flags.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: strong
   nursing:
     rating: safe
     summary: >
       Safe during nursing. No systemic absorption concerns.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: strong
   baby:
     rating: safe
     summary: >
@@ -44,7 +44,7 @@ safety:
       concern.
     min_safe_age_months: 0
     exposure_route: topical
-
+    evidence_strength: strong
 sources:
   - ref: cir-isopropyl-esters
   - ref: aad-pregnancy-skincare
@@ -56,4 +56,4 @@ notes: >
   it as comedogenic (pore-clogging) for acne-prone skin, but this is
   a cosmetic tolerability issue, not a pregnancy or toxicity concern.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

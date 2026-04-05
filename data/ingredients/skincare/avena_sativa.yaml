@@ -31,7 +31,7 @@ safety:
       for pregnancy-related itch and skin sensitivity.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: strong
   nursing:
     rating: safe
     summary: >
@@ -40,7 +40,7 @@ safety:
       soothing baths.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: strong
   baby:
     rating: safe
     summary: >
@@ -51,7 +51,7 @@ safety:
       including those with atopic dermatitis.
     min_safe_age_months: 0
     exposure_route: topical
-
+    evidence_strength: strong
 sources:
   - ref: fda-skin-protectant-monograph
   - ref: aad-pregnancy-skincare
@@ -66,4 +66,4 @@ notes: >
   infant population, colloidal oatmeal is recognized as safe and is
   widely recommended by dermatologists for sensitive skin.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

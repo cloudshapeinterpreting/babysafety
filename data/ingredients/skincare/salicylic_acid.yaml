@@ -33,7 +33,7 @@ safety:
       be avoided.
     dose_dependent: true
     exposure_route: topical
-
+    evidence_strength: moderate
   nursing:
     rating: safe
     summary: >
@@ -45,7 +45,7 @@ safety:
       breast milk in meaningful quantities.
     dose_dependent: true
     exposure_route: topical
-
+    evidence_strength: moderate
   baby:
     rating: avoid
     summary: >
@@ -59,7 +59,7 @@ safety:
       formulated for infant skin and should be avoided.
     min_safe_age_months: null
     exposure_route: topical
-
+    evidence_strength: strong
 sources:
   - ref: acog-skin-care-pregnancy
   - ref: cir-salicylic-acid
@@ -83,4 +83,4 @@ notes: >
   on many "natural" product labels but carries the same active compound.
   The concentration from willow bark is typically lower than synthetic BHA.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

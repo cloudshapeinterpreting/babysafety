@@ -48,7 +48,7 @@ safety:
       or lead.
     dose_dependent: false
     exposure_route: multiple
-
+    evidence_strength: definitive
   nursing:
     rating: avoid
     summary: >
@@ -56,7 +56,7 @@ safety:
       mercury-containing products during lactation.
     dose_dependent: false
     exposure_route: multiple
-
+    evidence_strength: definitive
   baby:
     rating: avoid
     summary: >
@@ -65,7 +65,7 @@ safety:
       provenance.
     min_safe_age_months: null
     exposure_route: multiple
-
+    evidence_strength: definitive
 sources:
   - ref: who-mercury-cosmetics
   - ref: who-mercury-skin-lightening
@@ -94,4 +94,4 @@ notes: >
   assumption is to avoid it. The concern is so high that the WHO
   runs a specific campaign on mercury-containing skin lighteners.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

@@ -32,7 +32,7 @@ safety:
       poses no systemic or reproductive concerns.
     dose_dependent: true
     exposure_route: topical
-
+    evidence_strength: strong
   nursing:
     rating: safe
     summary: >
@@ -47,7 +47,7 @@ safety:
       breastfeeding.
     dose_dependent: true
     exposure_route: topical
-
+    evidence_strength: strong
   baby:
     rating: caution
     summary: >
@@ -63,7 +63,7 @@ safety:
       generally well-tolerated.
     min_safe_age_months: 0
     exposure_route: topical
-
+    evidence_strength: moderate
 sources:
   - ref: cir-alkonium-chlorides
   - ref: aad-pregnancy-skincare
@@ -80,4 +80,4 @@ notes: >
   solutions. The concentrations used in cosmetic leave-on products
   are much lower than these medicinal uses.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

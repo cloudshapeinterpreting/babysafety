@@ -35,7 +35,7 @@ safety:
       seek treatment -- safer alternatives exist.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: strong
   nursing:
     rating: avoid
     summary: >
@@ -49,7 +49,7 @@ safety:
       vitamin C) are available for post-pregnancy pigmentation.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: strong
   baby:
     rating: avoid
     summary: >
@@ -57,7 +57,7 @@ safety:
       no safety data in pediatric populations.
     min_safe_age_months: null
     exposure_route: topical
-
+    evidence_strength: strong
 sources:
   - ref: mothertobaby-hydroquinone
   - ref: lactmed-hydroquinone
@@ -86,4 +86,4 @@ notes: >
   Australia for cosmetic use. The pregnancy concern is absorption
   magnitude, not direct teratogenic evidence.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

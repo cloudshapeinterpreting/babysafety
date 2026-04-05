@@ -52,7 +52,7 @@ safety:
       is still to minimize use.
     dose_dependent: true
     exposure_route: multiple
-
+    evidence_strength: definitive
   nursing:
     rating: avoid
     summary: >
@@ -64,7 +64,7 @@ safety:
       compounds the risk to the infant.
     dose_dependent: true
     exposure_route: multiple
-
+    evidence_strength: definitive
   baby:
     rating: avoid
     summary: >
@@ -78,7 +78,7 @@ safety:
       nervous system is especially vulnerable.
     min_safe_age_months: null
     exposure_route: multiple
-
+    evidence_strength: definitive
 sources:
   - ref: fda-lead-cosmetics
   - ref: cdc-lead-exposure
@@ -100,4 +100,4 @@ notes: >
   urgent and a blood lead test may be warranted -- consult a
   healthcare provider.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

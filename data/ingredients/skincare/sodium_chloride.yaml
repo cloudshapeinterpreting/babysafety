@@ -30,7 +30,7 @@ safety:
       safe in cosmetic formulations. No pregnancy concerns.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: definitive
   nursing:
     rating: safe
     summary: >
@@ -38,7 +38,7 @@ safety:
       cosmetic use poses no concerns.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: definitive
   baby:
     rating: safe
     summary: >
@@ -46,7 +46,7 @@ safety:
       concentrations.
     min_safe_age_months: 0
     exposure_route: topical
-
+    evidence_strength: definitive
 sources:
   - ref: cir-sodium-chloride
   - ref: fda-skin-protectant-monograph
@@ -58,4 +58,4 @@ notes: >
   surfactant systems (e.g., in shampoos and body washes). At the low
   concentrations used, it is not drying or irritating.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

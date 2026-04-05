@@ -25,7 +25,7 @@ safety:
       dermatologists and ACOG.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: definitive
   nursing:
     rating: safe
     summary: >
@@ -39,7 +39,7 @@ safety:
       mineral filters.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: definitive
   baby:
     rating: safe
     summary: >
@@ -54,7 +54,7 @@ safety:
       shade is not available.
     min_safe_age_months: 0
     exposure_route: topical
-
+    evidence_strength: definitive
 sources:
   - ref: fda-zinc-oxide-grase
   - ref: fda-sunscreen-proposed-rule-2019
@@ -70,4 +70,4 @@ notes: >
   though current evidence suggests even nano zinc oxide does not
   penetrate intact skin in meaningful amounts.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

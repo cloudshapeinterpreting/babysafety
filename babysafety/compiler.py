@@ -10,6 +10,44 @@ import yaml
 DATA_DIR = Path(__file__).parent.parent / "data"
 INGREDIENTS_DIR = DATA_DIR / "ingredients"
 COMPILED_DIR = DATA_DIR / "compiled"
+SOURCES_FILE = DATA_DIR / "sources.yaml"
+
+
+def _load_sources() -> dict[str, dict]:
+    """Load the shared citation library from data/sources.yaml."""
+    if not SOURCES_FILE.exists():
+        return {}
+    with open(SOURCES_FILE) as f:
+        data = yaml.safe_load(f)
+    return data or {}
+
+
+def _resolve_source(raw: dict, sources_lib: dict[str, dict]) -> dict:
+    """Inline full source metadata for entries that only carry a ref.
+
+    Ingredient YAML files store citations as `{ref: "name"}` pointers into
+    data/sources.yaml. At compile time we merge the library entry into the
+    ingredient's source list so that fields like `primary`, `type`, and `org`
+    are available at runtime without needing a second file.
+
+    Inline sources (those without a `ref` field) pass through unchanged.
+    If a ref doesn't resolve (shouldn't happen -- tests catch this), the
+    original pointer is kept so the runtime gracefully shows the ref name.
+    """
+    if "ref" not in raw:
+        return raw
+    ref = raw["ref"]
+    lib_entry = sources_lib.get(ref)
+    if not lib_entry:
+        return raw
+    # Merge library entry + ingredient-provided overrides. Ingredient-level
+    # fields win over library defaults (rare, but allows per-citation notes).
+    merged = dict(lib_entry)
+    merged["ref"] = ref
+    for key, value in raw.items():
+        if key != "ref" and value is not None:
+            merged[key] = value
+    return merged
 
 
 def compile_database() -> tuple[dict, dict]:
@@ -18,7 +56,11 @@ def compile_database() -> tuple[dict, dict]:
     Returns (ingredients_dict, alias_index) where:
     - ingredients_dict maps ingredient ID -> full ingredient data
     - alias_index maps lowercase alias -> ingredient ID
+
+    Source refs in each ingredient's `sources` list are resolved against
+    data/sources.yaml and inlined into the compiled output.
     """
+    sources_lib = _load_sources()
     ingredients: dict[str, dict] = {}
     alias_index: dict[str, str] = {}
 
@@ -28,6 +70,12 @@ def compile_database() -> tuple[dict, dict]:
 
         if not data or "id" not in data:
             continue
+
+        # Resolve source refs into inline source records
+        if "sources" in data:
+            data["sources"] = [
+                _resolve_source(s, sources_lib) for s in data["sources"]
+            ]
 
         ingredient_id = data["id"]
         ingredients[ingredient_id] = data

@@ -41,7 +41,7 @@ safety:
       postpartum change.
     dose_dependent: true
     exposure_route: topical
-
+    evidence_strength: limited
   nursing:
     rating: caution
     summary: >
@@ -56,7 +56,7 @@ safety:
       complete.
     dose_dependent: true
     exposure_route: topical
-
+    evidence_strength: limited
   baby:
     rating: avoid
     summary: >
@@ -64,10 +64,10 @@ safety:
       restricts OTC use to adults 18 and older.
     min_safe_age_months: null
     exposure_route: topical
-
+    evidence_strength: limited
 sources:
   - ref: mothertobaby-minoxidil
-  - ref: fda-retinoid-pregnancy
+  - ref: fda-minoxidil-labeling
 
 safer_alternatives:
   - name: Postpone treatment until after nursing
@@ -86,4 +86,4 @@ notes: >
   response to hormonal changes and typically resolves within a year
   without treatment.
 last_reviewed: "2026-04-05"
-confidence: moderate
+rating_confidence: moderate

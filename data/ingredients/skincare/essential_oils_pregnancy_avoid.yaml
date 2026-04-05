@@ -93,7 +93,7 @@ safety:
       specifically targets the well-documented high-risk oils.
     dose_dependent: true
     exposure_route: multiple
-
+    evidence_strength: limited
   nursing:
     rating: caution
     summary: >
@@ -112,7 +112,7 @@ safety:
       contraindicated.
     dose_dependent: true
     exposure_route: multiple
-
+    evidence_strength: limited
   baby:
     rating: avoid
     summary: >
@@ -127,11 +127,10 @@ safety:
       essential oil use in and around infants under 2.
     min_safe_age_months: null
     exposure_route: multiple
-
+    evidence_strength: limited
 sources:
   - ref: tisserand-young-eo-safety
   - ref: naha-pregnancy-safety
-  - ref: aap-sunscreen-policy
 
 safer_alternatives:
   - name: Lavender essential oil (lower concentration)
@@ -159,4 +158,4 @@ notes: >
   room is different from 20 drops in a massage oil applied to the
   abdomen daily.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

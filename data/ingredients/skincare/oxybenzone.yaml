@@ -26,7 +26,7 @@ safety:
       exposure and reduced birth weight in male infants.
     dose_dependent: true
     exposure_route: topical
-
+    evidence_strength: moderate
   nursing:
     rating: avoid
     summary: >
@@ -38,7 +38,7 @@ safety:
       mineral alternatives, avoidance during nursing is recommended.
     dose_dependent: true
     exposure_route: topical
-
+    evidence_strength: moderate
   baby:
     rating: avoid
     summary: >
@@ -52,7 +52,7 @@ safety:
       areas if needed.
     min_safe_age_months: 6
     exposure_route: topical
-
+    evidence_strength: moderate
 sources:
   - ref: fda-sunscreen-proposed-rule-2019
   - ref: jama-sunscreen-absorption-2019
@@ -79,4 +79,4 @@ notes: >
   in sunscreens due to coral reef damage. This regulatory momentum has
   increased availability of mineral alternatives.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

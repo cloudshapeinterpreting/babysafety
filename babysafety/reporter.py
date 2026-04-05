@@ -63,7 +63,7 @@ def _render_ingredient_block(
 
     info_parts = [
         f"Rating: {label}",
-        f"Confidence: {ingredient.confidence.value.title()}",
+        f"Confidence: {ingredient.rating_confidence.value.title()}",
         f"Exposure: {stage_safety.exposure_route.title()}",
     ]
     console.print(f"  {' | '.join(info_parts)}", style="dim")
@@ -198,7 +198,7 @@ def print_lookup(ingredient: Ingredient) -> None:
         console.print(f"Aliases: {', '.join(ingredient.aliases)}", style="dim")
     console.print(f"Category: {ingredient.category}")
     console.print(f"Product types: {', '.join(ingredient.product_types)}")
-    console.print(f"Confidence: {ingredient.confidence.value.title()}")
+    console.print(f"Confidence: {ingredient.rating_confidence.value.title()}")
     console.print(f"Last reviewed: {ingredient.last_reviewed}")
     console.print()
 

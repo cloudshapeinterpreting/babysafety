@@ -55,7 +55,7 @@ safety:
       shampoos and hair sprays for phthalates.
     dose_dependent: true
     exposure_route: multiple
-
+    evidence_strength: moderate
   nursing:
     rating: avoid
     summary: >
@@ -68,7 +68,7 @@ safety:
       developmental windows is the concern.
     dose_dependent: true
     exposure_route: multiple
-
+    evidence_strength: moderate
   baby:
     rating: avoid
     summary: >
@@ -82,12 +82,12 @@ safety:
       phthalate-free baby products.
     min_safe_age_months: null
     exposure_route: multiple
-
+    evidence_strength: moderate
 sources:
   - ref: eu-cosmetics-annex-ii
   - ref: fda-phthalates-cosmetics
-  - ref: cdc-lead-exposure
-  - ref: mothertobaby-hydroquinone
+  - ref: cdc-nhanes-phthalates
+  - ref: mothertobaby-phthalates
 
 safer_alternatives:
   - name: Phthalate-free fragrance
@@ -110,4 +110,4 @@ notes: >
   DBP, toluene, and formaldehyde -- increasingly phased out by major
   brands but still present in some salon-grade products.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

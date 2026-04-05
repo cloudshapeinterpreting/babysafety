@@ -30,7 +30,7 @@ safety:
       gastrointestinal medications (simethicone) as an anti-gas agent.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: definitive
   nursing:
     rating: safe
     summary: >
@@ -42,7 +42,7 @@ safety:
       the safety of this class of silicone.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: definitive
   baby:
     rating: safe
     summary: >
@@ -50,7 +50,7 @@ safety:
       products. Forms a breathable protective layer.
     min_safe_age_months: 0
     exposure_route: topical
-
+    evidence_strength: definitive
 sources:
   - ref: fda-skin-protectant-monograph
   - ref: cir-dimethicone
@@ -64,4 +64,4 @@ notes: >
   not supported by the scientific literature on cosmetic dimethicones,
   which are chemically distinct from industrial silicone products.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

@@ -31,7 +31,7 @@ safety:
       absorption concerns at topical cosmetic use.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: strong
   nursing:
     rating: safe
     summary: >
@@ -39,14 +39,14 @@ safety:
       moisturizers.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: strong
   baby:
     rating: safe
     summary: >
       Safe for infants. Common emulsifier in baby lotions and creams.
     min_safe_age_months: 0
     exposure_route: topical
-
+    evidence_strength: strong
 sources:
   - ref: cir-cetyl-alcohol
   - ref: aad-pregnancy-skincare
@@ -60,4 +60,4 @@ notes: >
   found in essentially all dermatologist-recommended moisturizers and
   barrier creams.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

@@ -39,7 +39,7 @@ safety:
       oxide, titanium dioxide).
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: moderate
   nursing:
     rating: avoid
     summary: >
@@ -52,7 +52,7 @@ safety:
       avoidance the prudent choice during lactation.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: moderate
   baby:
     rating: avoid
     summary: >
@@ -65,7 +65,7 @@ safety:
       mineral sunscreens for children.
     min_safe_age_months: 6
     exposure_route: topical
-
+    evidence_strength: moderate
 sources:
   - ref: jama-sunscreen-absorption-2019
   - ref: fda-sunscreen-actives-2021
@@ -88,4 +88,4 @@ notes: >
   sunscreen," or "reef safe" -- these generally avoid all chemical
   filters.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

@@ -28,7 +28,7 @@ safety:
       used as surfactants.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: strong
   nursing:
     rating: safe
     summary: >
@@ -36,14 +36,14 @@ safety:
       topical cosmetic use.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: strong
   baby:
     rating: safe
     summary: >
       Safe for infants in cosmetic formulations.
     min_safe_age_months: 0
     exposure_route: topical
-
+    evidence_strength: strong
 sources:
   - ref: cir-quaternary-ammonium
   - ref: aad-pregnancy-skincare
@@ -57,4 +57,4 @@ notes: >
   rather than an antimicrobial, with correspondingly lower irritation
   potential.
 last_reviewed: "2026-04-05"
-confidence: moderate
+rating_confidence: moderate

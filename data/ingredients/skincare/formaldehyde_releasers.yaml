@@ -59,7 +59,7 @@ safety:
       containing these preservatives.
     dose_dependent: true
     exposure_route: multiple
-
+    evidence_strength: strong
   nursing:
     rating: caution
     summary: >
@@ -74,7 +74,7 @@ safety:
       from salon hair treatments.
     dose_dependent: true
     exposure_route: multiple
-
+    evidence_strength: moderate
   baby:
     rating: caution
     summary: >
@@ -87,7 +87,7 @@ safety:
       instead.
     min_safe_age_months: null
     exposure_route: topical
-
+    evidence_strength: moderate
 sources:
   - ref: iarc-formaldehyde
   - ref: fda-keratin-formaldehyde-alert
@@ -115,4 +115,4 @@ notes: >
   routine cosmetic leave-on products is much lower but non-zero for
   cumulative or sensitized exposure.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

@@ -33,7 +33,7 @@ safety:
       pregnancy.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: definitive
   nursing:
     rating: safe
     summary: >
@@ -47,7 +47,7 @@ safety:
       off before feeds is required.
     dose_dependent: false
     exposure_route: topical
-
+    evidence_strength: definitive
   baby:
     rating: safe
     summary: >
@@ -60,7 +60,7 @@ safety:
       non-irritating even on delicate neonatal skin.
     min_safe_age_months: 0
     exposure_route: topical
-
+    evidence_strength: definitive
 sources:
   - ref: fda-skin-protectant-monograph
   - ref: aad-pregnancy-skincare
@@ -76,4 +76,4 @@ notes: >
   petrolatum sourcing do not apply to the refined grades used in
   consumer skincare.
 last_reviewed: "2026-04-05"
-confidence: high
+rating_confidence: high

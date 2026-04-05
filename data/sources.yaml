@@ -58,6 +58,7 @@ nih-caffeine-pregnancy:
   journal: "BMJ"
   year: 2008
   doi: "10.1136/bmj.a2332"
+  primary: true
 
 jama-sunscreen-absorption-2019:
   type: study
@@ -68,6 +69,7 @@ jama-sunscreen-absorption-2019:
   year: 2019
   doi: "10.1001/jama.2019.5586"
   finding: "All 4 tested chemical sunscreen actives exceeded FDA threshold for systemic absorption after single application"
+  primary: true
 
 fda-zinc-oxide-grase:
   type: regulatory
@@ -82,6 +84,7 @@ cir-salicylic-acid:
   title: "Cosmetic Ingredient Review: Salicylic Acid"
   year: 2019
   note: "CIR Expert Panel concluded safe in cosmetic formulations at current concentrations"
+  primary: true
 
 aap-aspirin-reye:
   type: guideline
@@ -101,6 +104,7 @@ cir-glycerin:
   year: 2019
   url: "https://www.cir-safety.org/ingredients"
   note: "CIR expert panel concluded glycerin is safe in the present practices of use and concentration in cosmetics"
+  primary: true
 
 cir-dimethicone:
   type: review
@@ -110,6 +114,7 @@ cir-dimethicone:
   year: 2021
   url: "https://www.cir-safety.org/ingredients"
   note: "CIR concluded dimethicone and related silicone polymers are safe in cosmetic use"
+  primary: true
 
 cir-cetyl-alcohol:
   type: review
@@ -119,6 +124,7 @@ cir-cetyl-alcohol:
   year: 2020
   url: "https://www.cir-safety.org/ingredients"
   note: "CIR concluded fatty alcohols including cetyl alcohol are safe in cosmetic formulations; these are emulsifiers and emollients, not drying alcohols"
+  primary: true
 
 cir-alkonium-chlorides:
   type: review
@@ -128,6 +134,7 @@ cir-alkonium-chlorides:
   year: 2018
   url: "https://www.cir-safety.org/ingredients"
   note: "CIR concluded benzalkonium chloride is safe as used in cosmetics at concentrations up to 0.1 percent in leave-on products"
+  primary: true
 
 cir-isopropyl-esters:
   type: review
@@ -137,6 +144,7 @@ cir-isopropyl-esters:
   year: 2019
   url: "https://www.cir-safety.org/ingredients"
   note: "CIR concluded isopropyl palmitate and related isopropyl esters are safe in cosmetic use"
+  primary: true
 
 cir-quaternary-ammonium:
   type: review
@@ -146,6 +154,7 @@ cir-quaternary-ammonium:
   year: 2019
   url: "https://www.cir-safety.org/ingredients"
   note: "CIR concluded quaternary ammonium conditioning agents including distearyldimonium chloride are safe in cosmetic use with minimal skin penetration"
+  primary: true
 
 cir-sodium-chloride:
   type: review
@@ -154,6 +163,7 @@ cir-sodium-chloride:
   year: 2017
   url: "https://www.cir-safety.org/ingredients"
   note: "CIR concluded sodium chloride is safe in cosmetic formulations"
+  primary: true
 
 # --- FDA OTC drug monographs ---
 
@@ -237,6 +247,7 @@ iarc-formaldehyde:
   year: 2012
   url: "https://publications.iarc.fr/123"
   note: "Formaldehyde classified as IARC Group 1 (carcinogenic to humans), sufficient evidence for nasopharyngeal cancer and leukemia"
+  primary: true
 
 fda-keratin-formaldehyde-alert:
   type: regulatory
@@ -311,3 +322,35 @@ acog-skincare-pregnancy-2021:
   year: 2021
   url: "https://www.acog.org/womens-health/faqs/skin-conditions-during-pregnancy"
   note: "ACOG patient guidance on pregnancy-safe skincare; avoid retinoids and hydroquinone; limited salicylic acid OK; chemical sunscreens limited data"
+
+# --- Additional sources added during Phase 2 migration (citation fixes) ---
+
+fda-minoxidil-labeling:
+  type: regulatory
+  org: FDA
+  title: "FDA Approved Labeling: Topical Minoxidil (Rogaine)"
+  url: "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=019501"
+  note: "FDA-approved labeling for topical minoxidil; warns against use during pregnancy based on animal reproductive toxicity data and absence of adequate human data"
+
+cdc-nhanes-phthalates:
+  type: study
+  org: CDC
+  title: "CDC National Report on Human Exposure to Environmental Chemicals: Phthalates"
+  url: "https://www.cdc.gov/exposurereport/report/pdf/fourth-report-tables-volume-2-jan-2019-508.pdf"
+  primary: true
+  note: "CDC NHANES biomonitoring data showing widespread population exposure to phthalate metabolites; detects DEP, DBP, DEHP, BBP metabolites in urine samples across demographic groups including pregnant women"
+
+mothertobaby-phthalates:
+  type: guideline
+  org: OTIS
+  title: "MotherToBaby Fact Sheet: Phthalates"
+  url: "https://mothertobaby.org/fact-sheets/phthalates-pregnancy/"
+  note: "OTIS/MotherToBaby evidence summary on phthalate exposure in pregnancy; reviews anti-androgenic effects documented in animal studies and male reproductive tract outcomes in human epidemiologic studies"
+
+epa-phthalates-action-plan:
+  type: regulatory
+  org: EPA
+  title: "EPA Phthalates Action Plan"
+  year: 2012
+  url: "https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/phthalates"
+  note: "EPA action plan addressing eight phthalates of concern including DBP, DEHP, BBP; documents endocrine-disrupting potential and exposure pathways"
