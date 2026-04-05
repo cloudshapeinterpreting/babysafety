@@ -1,0 +1,86 @@
+id: salicylic_acid
+name: Salicylic Acid
+aliases:
+  - BHA
+  - Beta Hydroxy Acid
+  - 2-Hydroxybenzoic Acid
+  - Willow Bark Extract
+  - Salix Alba Bark Extract
+cas_number: "69-72-7"
+
+category: exfoliant
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: caution
+    summary: >
+      Low-concentration topical use (2% or less) in rinse-off products is
+      generally considered acceptable. High-dose oral salicylates and
+      chemical peels should be avoided.
+    details: >
+      Salicylic acid is chemically related to aspirin (acetylsalicylic acid).
+      Oral salicylates at high doses are associated with birth defects and
+      pregnancy complications. However, topical salicylic acid at
+      concentrations of 2% or less has minimal systemic absorption,
+      especially in rinse-off products (face washes, cleansers). ACOG
+      guidelines note that low-concentration topical BHA is considered
+      acceptable during pregnancy. Leave-on products (serums, toners) have
+      slightly more absorption but are still generally considered low risk
+      at 2% or less. Chemical peels with salicylic acid (20-30%) should
+      be avoided.
+    dose_dependent: true
+    exposure_route: topical
+
+  nursing:
+    rating: safe
+    summary: >
+      Topical salicylic acid at standard cosmetic concentrations is
+      considered safe during nursing.
+    details: >
+      Systemic absorption from topical application is minimal. The small
+      amount that reaches systemic circulation is unlikely to affect
+      breast milk in meaningful quantities.
+    dose_dependent: true
+    exposure_route: topical
+
+  baby:
+    rating: avoid
+    summary: >
+      Salicylates should not be applied to infant skin or given orally
+      to children due to Reye syndrome risk.
+    details: >
+      Salicylates are contraindicated in children under 18 for systemic
+      use due to Reye syndrome risk (rare but potentially fatal liver
+      and brain condition). While topical cosmetic-grade salicylic acid
+      at low concentrations has minimal systemic absorption, it is not
+      formulated for infant skin and should be avoided.
+    min_safe_age_months: null
+    exposure_route: topical
+
+sources:
+  - ref: acog-skin-care-pregnancy
+  - ref: cir-salicylic-acid
+  - ref: aap-aspirin-reye
+  - ref: ewg-skin-deep
+
+safer_alternatives:
+  - name: Glycolic Acid
+    id: null
+    note: "AHA alternative; considered safe in pregnancy at low concentrations"
+  - name: Lactic Acid
+    id: null
+    note: "AHA alternative; gentle exfoliant safe in pregnancy"
+  - name: Azelaic Acid
+    id: null
+    note: "Safe in pregnancy per ACOG; addresses acne and hyperpigmentation"
+
+notes: >
+  Willow Bark Extract (Salix Alba) is a natural source of salicin, which
+  converts to salicylic acid. It is included as an alias because it appears
+  on many "natural" product labels but carries the same active compound.
+  The concentration from willow bark is typically lower than synthetic BHA.
+last_reviewed: "2026-04-05"
+confidence: high

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "babysafety"
+version = "0.1.0"
+description = "Evidence-based ingredient safety checker for pregnancy, nursing, and baby care"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.0",
+    "rich>=13.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[project.scripts]
+babysafety = "babysafety.cli:cli"
+
+[tool.setuptools.packages.find]
+include = ["babysafety*"]

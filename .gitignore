@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+venv/
+
+# Compiled knowledge base (regenerated via `babysafety compile`)
+data/compiled/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/

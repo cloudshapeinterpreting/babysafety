@@ -1,0 +1,90 @@
+# Shared citation library
+# Ingredient files reference these by ID to avoid duplicating full citations.
+
+fda-sunscreen-proposed-rule-2019:
+  type: regulatory
+  org: FDA
+  title: "Proposed Rule: Sunscreen Drug Products for Over-the-Counter Human Use"
+  year: 2019
+  url: "https://www.federalregister.gov/documents/2019/03/26/2019-03019/sunscreen-drug-products-for-over-the-counter-human-use"
+
+ewg-skin-deep:
+  type: database
+  org: EWG
+  title: "EWG Skin Deep Cosmetics Database"
+  url: "https://www.ewg.org/skindeep/"
+  note: "Hazard scores on a 1-10 scale; higher = more concern"
+
+acog-skin-care-pregnancy:
+  type: guideline
+  org: ACOG
+  title: "Skin Conditions During Pregnancy"
+  year: 2020
+  note: "Covers retinoids, hydroquinone, and other topical agents"
+
+acog-moderate-caffeine:
+  type: guideline
+  org: ACOG
+  title: "Committee Opinion 462: Moderate Caffeine Consumption During Pregnancy"
+  year: 2010
+  note: "Reaffirmed 2020. Less than 200mg/day does not appear to be a major contributing factor in miscarriage or preterm birth"
+
+aap-sunscreen-policy:
+  type: guideline
+  org: AAP
+  title: "Policy Statement: Ultraviolet Radiation - A Hazard to Children and Adolescents"
+  year: 2011
+  note: "Recommends mineral sunscreen for children; infants under 6 months should avoid direct sun"
+
+who-mercury-cosmetics:
+  type: guideline
+  org: WHO
+  title: "Mercury in Skin Lightening Products"
+  year: 2019
+  url: "https://www.who.int/news-room/fact-sheets/detail/mercury-and-health"
+
+fda-retinoid-pregnancy:
+  type: regulatory
+  org: FDA
+  title: "FDA Pregnancy Category X Classification for Retinoids"
+  year: 2015
+  note: "Oral retinoids (isotretinoin) are Category X. Topical retinoids are Category C but generally recommended to avoid."
+
+nih-caffeine-pregnancy:
+  type: study
+  org: NIH
+  title: "Maternal caffeine intake during pregnancy and risk of fetal growth restriction"
+  authors: "CARE Study Group"
+  journal: "BMJ"
+  year: 2008
+  doi: "10.1136/bmj.a2332"
+
+jama-sunscreen-absorption-2019:
+  type: study
+  org: JAMA
+  title: "Effect of Sunscreen Application Under Maximal Use Conditions on Plasma Concentration of Sunscreen Active Ingredients"
+  authors: "Matta MK, et al."
+  journal: "JAMA"
+  year: 2019
+  doi: "10.1001/jama.2019.5586"
+  finding: "All 4 tested chemical sunscreen actives exceeded FDA threshold for systemic absorption after single application"
+
+fda-zinc-oxide-grase:
+  type: regulatory
+  org: FDA
+  title: "FDA GRASE (Generally Recognized as Safe and Effective) Determination for Zinc Oxide and Titanium Dioxide"
+  year: 2019
+  note: "Only two sunscreen actives deemed GRASE by FDA in 2019 proposed rule"
+
+cir-salicylic-acid:
+  type: review
+  org: CIR
+  title: "Cosmetic Ingredient Review: Salicylic Acid"
+  year: 2019
+  note: "CIR Expert Panel concluded safe in cosmetic formulations at current concentrations"
+
+aap-aspirin-reye:
+  type: guideline
+  org: AAP
+  title: "Reye Syndrome and Salicylate Use"
+  note: "Systemic salicylates contraindicated in children due to Reye syndrome risk"

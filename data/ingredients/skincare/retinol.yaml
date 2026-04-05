@@ -1,0 +1,95 @@
+id: retinol
+name: Retinol
+aliases:
+  - Vitamin A
+  - Retinyl Palmitate
+  - Retinyl Acetate
+  - Retinaldehyde
+  - Retinoic Acid
+  - Tretinoin
+  - Adapalene
+  - Tazarotene
+  - Isotretinoin
+  - Trans-Retinoic Acid
+  - All-Trans Retinol
+cas_number: "68-26-8"
+
+category: retinoid
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: avoid
+    summary: >
+      Known teratogen. All retinoids (oral and topical) should be avoided
+      during pregnancy. Oral isotretinoin causes severe birth defects.
+    details: >
+      Retinoids are Vitamin A derivatives used in anti-aging and acne products.
+      Oral retinoids (isotretinoin/Accutane) are FDA Pregnancy Category X --
+      proven to cause craniofacial, cardiac, and CNS birth defects. While
+      topical retinoids have much lower systemic absorption, ACOG and most
+      dermatologists recommend avoiding all forms during pregnancy as a
+      precaution. No safe threshold has been established for pregnancy.
+    dose_dependent: false
+    exposure_route: topical
+
+  nursing:
+    rating: caution
+    summary: >
+      Low-concentration topical retinol is likely low risk during nursing,
+      but data is limited. Oral retinoids should still be avoided.
+    details: >
+      Systemic absorption from topical retinol is minimal, and transfer to
+      breast milk from topical use is expected to be negligible. However,
+      oral retinoids remain contraindicated. Many providers recommend
+      continuing to avoid topical retinoids during nursing as a precaution
+      given limited data.
+    dose_dependent: true
+    exposure_route: topical
+
+  baby:
+    rating: avoid
+    summary: >
+      Retinoid-containing products should not be used on infants or children.
+    details: >
+      Retinoids are potent active ingredients not formulated for infant skin.
+      Children have higher surface-area-to-body-weight ratios increasing
+      systemic absorption risk.
+    min_safe_age_months: null
+    exposure_route: topical
+
+sources:
+  - ref: fda-retinoid-pregnancy
+  - ref: acog-skin-care-pregnancy
+  - ref: ewg-skin-deep
+  - type: study
+    authors: "Lammer EJ, et al."
+    title: "Retinoic Acid Embryopathy"
+    journal: "New England Journal of Medicine"
+    year: 1985
+    doi: "10.1056/NEJM198510033131401"
+    finding: "Established the teratogenic effects of isotretinoin in humans"
+
+safer_alternatives:
+  - name: Bakuchiol
+    id: null
+    note: "Plant-based retinol alternative; no known pregnancy concerns"
+  - name: Azelaic Acid
+    id: null
+    note: "Safe in pregnancy per ACOG; effective for acne and hyperpigmentation"
+  - name: Vitamin C (L-Ascorbic Acid)
+    id: null
+    note: "Safe antioxidant for pregnancy skincare"
+  - name: Niacinamide
+    id: null
+    note: "Vitamin B3; safe and effective for multiple skin concerns during pregnancy"
+
+notes: >
+  This is a class entry covering all retinoid forms. The most common forms
+  found in OTC products are retinol, retinyl palmitate, and retinaldehyde.
+  Prescription forms include tretinoin, adapalene, and tazarotene.
+  Isotretinoin (Accutane) is the highest-risk oral form.
+last_reviewed: "2026-04-05"
+confidence: high

@@ -1,0 +1,46 @@
+# Product category definitions
+
+skincare:
+  name: Skincare & Cosmetics
+  description: Lotions, sunscreen, shampoo, makeup, deodorant, moisturizer, serums
+  examples:
+    - sunscreen
+    - moisturizer
+    - face wash
+    - shampoo
+    - conditioner
+    - body lotion
+    - makeup
+    - deodorant
+    - lip balm
+
+cleaning:
+  name: Cleaning Products
+  description: Household cleaners, laundry detergent, dish soap, disinfectants
+  examples:
+    - all-purpose cleaner
+    - laundry detergent
+    - dish soap
+    - bathroom cleaner
+    - disinfectant spray
+
+food:
+  name: Food & Beverages
+  description: Ingredients, additives, sweeteners, preservatives, supplements
+  examples:
+    - food additives
+    - artificial sweeteners
+    - preservatives
+    - supplements
+    - beverages
+
+baby_products:
+  name: Baby Products
+  description: Diapers, wipes, formula, teething products, baby skincare
+  examples:
+    - diapers
+    - baby wipes
+    - formula
+    - baby lotion
+    - teething gel
+    - baby shampoo

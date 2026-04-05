@@ -1,0 +1,73 @@
+id: zinc_oxide
+name: Zinc Oxide
+aliases:
+  - ZnO
+  - CI 77947
+cas_number: "1314-13-2"
+
+category: mineral_sunscreen
+product_types:
+  - skincare
+  - baby_products
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      FDA GRASE (Generally Recognized as Safe and Effective). Mineral
+      sunscreen that sits on the skin surface with negligible absorption.
+    details: >
+      Zinc oxide is one of only two sunscreen actives deemed GRASE by
+      the FDA in their 2019 proposed rule. It works by physically
+      blocking UV rays rather than absorbing them chemically. Studies
+      show negligible systemic absorption even with regular use. It is
+      the recommended sunscreen active for pregnancy by most
+      dermatologists and ACOG.
+    dose_dependent: false
+    exposure_route: topical
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. No systemic absorption concerns, so no
+      transfer to breast milk expected.
+    details: >
+      Zinc oxide remains on the skin surface. No systemic absorption
+      means no pathway to breast milk. Additionally, zinc itself is an
+      essential nutrient -- the concern with chemical sunscreens
+      (endocrine disruption, systemic absorption) does not apply to
+      mineral filters.
+    dose_dependent: false
+    exposure_route: topical
+
+  baby:
+    rating: safe
+    summary: >
+      Recommended mineral sunscreen for babies 6 months and older.
+      Also used in diaper cream.
+    details: >
+      AAP recommends zinc oxide-based mineral sunscreen for children.
+      Zinc oxide is also the primary active in many diaper rash creams
+      (at 10-40% concentration), where it serves as a skin protectant.
+      For infants under 6 months, AAP recommends shade and clothing
+      first, with zinc oxide sunscreen on small exposed areas if
+      shade is not available.
+    min_safe_age_months: 0
+    exposure_route: topical
+
+sources:
+  - ref: fda-zinc-oxide-grase
+  - ref: fda-sunscreen-proposed-rule-2019
+  - ref: aap-sunscreen-policy
+  - ref: ewg-skin-deep
+
+safer_alternatives: []
+
+notes: >
+  Zinc oxide is considered the gold standard for pregnancy-safe sun
+  protection. "Non-nano" zinc oxide (particles larger than 100nm) is
+  preferred by some due to concerns about nanoparticle absorption,
+  though current evidence suggests even nano zinc oxide does not
+  penetrate intact skin in meaningful amounts.
+last_reviewed: "2026-04-05"
+confidence: high

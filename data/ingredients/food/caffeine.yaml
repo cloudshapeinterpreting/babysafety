@@ -1,0 +1,89 @@
+id: caffeine
+name: Caffeine
+aliases:
+  - "1,3,7-Trimethylxanthine"
+  - Guarana
+  - Guarana Extract
+  - Green Tea Extract
+  - Coffee Extract
+  - Yerba Mate
+  - Matcha
+cas_number: "58-08-2"
+
+category: stimulant
+product_types:
+  - food
+  - skincare
+
+safety:
+  pregnancy:
+    rating: caution
+    summary: >
+      ACOG says less than 200mg/day does not appear to increase risk of
+      miscarriage or preterm birth. Higher intakes are associated with
+      adverse outcomes.
+    details: >
+      Caffeine crosses the placenta and fetal metabolism is much slower
+      than maternal. ACOG Committee Opinion 462 (2010, reaffirmed 2020)
+      states moderate caffeine consumption (less than 200mg/day) is not
+      a major contributing factor in miscarriage or preterm birth. However,
+      a 2020 BMJ review by Jack James suggested no safe level of caffeine
+      during pregnancy, though this remains controversial and is not
+      reflected in current ACOG guidelines. For reference: 8oz brewed
+      coffee is ~95mg, 8oz black tea is ~47mg, 12oz cola is ~34mg.
+    dose_dependent: true
+    exposure_route: oral
+
+  nursing:
+    rating: caution
+    summary: >
+      Moderate caffeine intake (200-300mg/day) is generally considered
+      compatible with breastfeeding. Infant may show irritability at
+      higher maternal intake.
+    details: >
+      About 1% of maternal caffeine dose transfers to breast milk.
+      Peak breast milk levels occur 1-2 hours after ingestion. Newborns
+      metabolize caffeine very slowly (half-life ~97 hours vs 5 hours
+      in adults), so accumulation is possible. By 3-5 months, infant
+      metabolism approaches adult rates. AAP considers caffeine
+      compatible with breastfeeding at moderate doses.
+    dose_dependent: true
+    exposure_route: oral
+
+  baby:
+    rating: avoid
+    summary: >
+      Caffeine should not be given to infants or young children.
+    details: >
+      Infants and young children are highly sensitive to caffeine due
+      to immature hepatic metabolism. There is no established safe dose
+      for infants outside of medical use (caffeine citrate for apnea
+      of prematurity, given under medical supervision).
+    min_safe_age_months: null
+    exposure_route: oral
+
+sources:
+  - ref: acog-moderate-caffeine
+  - ref: nih-caffeine-pregnancy
+  - type: study
+    authors: "James JE"
+    title: "Maternal caffeine consumption and pregnancy outcomes: a narrative review with implications for advice to mothers and mothers-to-be"
+    journal: "BMJ Evidence-Based Medicine"
+    year: 2020
+    doi: "10.1136/bmjebm-2020-111432"
+    finding: "Argued no safe level of caffeine in pregnancy, though this contradicts ACOG guidance and remains debated"
+
+safer_alternatives:
+  - name: Decaffeinated coffee
+    id: null
+    note: "Contains trace caffeine (~2-15mg per cup) but well under thresholds"
+  - name: Herbal tea (pregnancy-safe varieties)
+    id: null
+    note: "Ginger, peppermint, and rooibos are generally considered safe. Avoid herbal teas with unknown safety profiles."
+
+notes: >
+  When found in skincare products (eye creams, cellulite creams), topical
+  caffeine absorption is minimal and generally not a concern. The safety
+  ratings above primarily apply to oral/dietary intake.
+last_reviewed: "2026-04-05"
+confidence: high
