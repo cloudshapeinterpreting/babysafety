@@ -1,0 +1,87 @@
+id: benzocaine
+name: Benzocaine
+aliases:
+  - Ethyl 4-Aminobenzoate
+  - Ethyl Aminobenzoate
+  - Americaine
+  - Orajel
+  - Anbesol
+  - Baby Orajel
+cas_number: "94-09-7"
+
+category: topical_anesthetic
+product_types:
+  - baby_products
+  - oral_care
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Safe for adult use during pregnancy at standard OTC concentrations
+      for sore throat, canker sores, or dental pain. No pregnancy-
+      specific concerns at normal topical use.
+    dose_dependent: true
+    exposure_route: oral
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing for adult use. Minimal systemic absorption
+      from topical oral application.
+    dose_dependent: true
+    exposure_route: oral
+    evidence_strength: strong
+
+  baby:
+    rating: avoid
+    summary: >
+      FDA warns against ALL benzocaine oral products for children
+      under 2. Risk of methemoglobinemia -- a life-threatening
+      blood disorder that reduces oxygen-carrying capacity.
+    details: >
+      In May 2018, the FDA issued a safety communication requesting
+      manufacturers stop selling OTC benzocaine oral drug products
+      marketed for teething pain in children under 2. Benzocaine
+      can cause methemoglobinemia, a condition where the amount of
+      oxygen carried by the blood is greatly reduced, potentially
+      leading to death. Over 400 cases were reported to the FDA
+      from 1971-2018, with cases across all ages but children
+      under 2 at highest risk.
+
+      This applies to ALL oral benzocaine products including
+      teething gels, liquids, sprays, and lozenges. The FDA
+      specifically named popular brands including Baby Orajel.
+      Benzocaine teething gels are no longer recommended by any
+      major pediatric organization.
+
+      Alternatives for teething: chilled (not frozen) teething
+      rings, clean cold washcloths to chew on, gentle gum massage
+      with a clean finger. If pain is severe, consult the
+      pediatrician about appropriate pain relief options.
+    min_safe_age_months: 24
+    exposure_route: oral
+    evidence_strength: strong
+
+sources:
+  - ref: fda-benzocaine-teething-2018
+  - ref: aap-essential-oils-children
+
+safer_alternatives:
+  - name: Chilled teething rings
+    id: null
+    note: "Non-pharmacologic; recommended by AAP and ADA"
+  - name: Gentle gum massage
+    id: null
+    note: "With a clean finger; provides counter-pressure relief"
+
+notes: >
+  Benzocaine is still available OTC for adults (sore throat sprays,
+  dental pain products). The FDA action specifically targets oral
+  products marketed for teething in children under 2. Products like
+  adult Orajel (for canker sores, dental work) remain on the market.
+  The key message for parents: never use any benzocaine-containing
+  product in a baby's mouth.
+last_reviewed: "2026-04-05"
+rating_confidence: high

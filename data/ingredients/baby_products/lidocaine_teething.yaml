@@ -1,0 +1,90 @@
+id: lidocaine_teething
+name: Lidocaine (Teething Products)
+aliases:
+  - Viscous Lidocaine
+  - Lidocaine 2%
+  - Lidocaine Gel
+  - Xylocaine Viscous
+  - Lidocaine Hydrochloride Solution
+cas_number: "137-58-6"
+
+category: topical_anesthetic
+product_types:
+  - baby_products
+  - oral_care
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Lidocaine is widely used in obstetric anesthesia (epidurals,
+      local dental anesthesia) and is considered safe during
+      pregnancy at standard medical doses.
+    dose_dependent: true
+    exposure_route: oral
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. Lidocaine is compatible with breastfeeding
+      per LactMed.
+    dose_dependent: true
+    exposure_route: oral
+    evidence_strength: strong
+
+  baby:
+    rating: avoid
+    summary: >
+      FDA warns against using viscous lidocaine to treat teething
+      pain in infants and children. Can cause seizures, severe brain
+      injury, cardiac arrest, and death if accidentally overdosed or
+      swallowed.
+    details: >
+      The FDA issued a safety communication warning that viscous
+      lidocaine 2 percent solution should NOT be used to treat
+      teething pain. The product is sometimes prescribed off-label
+      for teething, but infants can accidentally swallow too much
+      (the product numbs the throat, increasing aspiration risk
+      and potentially causing toxic blood levels). The FDA
+      documented cases of seizures, brain injury, cardiac problems,
+      and death in infants given viscous lidocaine for teething.
+
+      This does NOT apply to medical use of lidocaine by healthcare
+      providers in controlled settings (e.g., for procedures). The
+      concern is specifically about at-home use of viscous lidocaine
+      for teething where dosing is imprecise and accidental
+      ingestion is likely.
+
+      The same alternatives apply as for benzocaine: chilled
+      teething rings, cold washcloths, gentle gum massage with a
+      clean finger. Consult the pediatrician for persistent pain.
+    min_safe_age_months: 24
+    exposure_route: oral
+    evidence_strength: strong
+
+sources:
+  - ref: fda-lidocaine-teething-2014
+  - ref: aap-essential-oils-children
+
+safer_alternatives:
+  - name: Chilled teething rings
+    id: null
+    note: "Non-pharmacologic; recommended by AAP and ADA"
+  - name: Gentle gum massage
+    id: null
+    note: "With a clean finger"
+  - name: Infant acetaminophen (with pediatrician guidance)
+    id: null
+    note: "For severe teething pain, pediatrician may recommend appropriate dosing"
+
+notes: >
+  This entry is specifically about using lidocaine products for
+  teething in infants. Lidocaine itself is a widely used and safe
+  local anesthetic in medical settings. The danger is the at-home,
+  off-label use for teething where the child can accidentally
+  swallow concentrated solution. Parents should never apply
+  prescription lidocaine to an infant's gums without explicit
+  pediatrician guidance on dosing.
+last_reviewed: "2026-04-05"
+rating_confidence: high

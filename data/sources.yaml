@@ -354,3 +354,50 @@ epa-phthalates-action-plan:
   year: 2012
   url: "https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/phthalates"
   note: "EPA action plan addressing eight phthalates of concern including DBP, DEHP, BBP; documents endocrine-disrupting potential and exposure pathways"
+
+# --- Sources for Baby AVOID Red List ---
+
+fda-benzocaine-teething-2018:
+  type: regulatory
+  org: FDA
+  title: "FDA Drug Safety Communication: FDA Warns About the Serious Risk of Methemoglobinemia with the Use of Benzocaine Products Applied to Gums or Mouth"
+  year: 2018
+  url: "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-risk-serious-and-potentially-fatal-blood-disorder-prompts-fda-action"
+  note: "FDA requested manufacturers stop selling OTC benzocaine oral drug products for teething pain in children under 2; methemoglobinemia risk can be life-threatening"
+
+fda-lidocaine-teething-2014:
+  type: regulatory
+  org: FDA
+  title: "FDA Drug Safety Communication: FDA Recommends Not Using Lidocaine to Treat Teething Pain and Requires New Boxed Warning"
+  year: 2014
+  url: "https://www.fda.gov/drugs/drug-safety-and-availability/fda-drug-safety-communication-fda-recommends-not-using-lidocaine-treat-teething-pain-and-requires"
+  note: "FDA warns against using viscous lidocaine 2 percent for teething pain; can cause seizures, cardiac arrest, and death in infants if accidentally swallowed or overdosed"
+
+aap-no-baby-powder:
+  type: guideline
+  org: AAP
+  title: "AAP: Avoid Baby Powder (Talc and Cornstarch)"
+  url: "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Keep-Baby-Powder-Away-from-Babies.aspx"
+  note: "AAP HealthyChildren.org warns that talc powder can cause serious breathing problems and lung damage if inhaled by infants; cornstarch powder also poses aspiration risk"
+
+aap-essential-oils-children:
+  type: guideline
+  org: AAP
+  title: "AAP: Essential Oil Safety and Children"
+  url: "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Essential-Oils-and-Children.aspx"
+  note: "AAP warns about essential oil toxicity in children; camphor and wintergreen can be lethal in small ingestions; eucalyptus and peppermint can trigger respiratory distress"
+
+camphor-pediatric-toxicity:
+  type: study
+  org: "National Capital Poison Center"
+  title: "Camphor Poisoning: An Evidence-Based Review"
+  url: "https://www.poison.org/articles/camphor"
+  primary: true
+  note: "Documents lethal dose as low as 5 mL camphorated oil in children; mechanism is direct neurotoxicity causing seizures; rapid oral and dermal absorption"
+
+reye-syndrome-salicylates:
+  type: guideline
+  org: CDC
+  title: "Reye Syndrome and Salicylate Use in Children"
+  url: "https://www.cdc.gov/reyes-syndrome/about/index.html"
+  note: "CDC documents the link between aspirin/salicylate use in children with viral infections and Reye syndrome; methyl salicylate (wintergreen oil) is a concentrated salicylate source"

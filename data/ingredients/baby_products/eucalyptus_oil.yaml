@@ -1,0 +1,91 @@
+id: eucalyptus_oil
+name: Eucalyptus Oil
+aliases:
+  - Eucalyptus Globulus
+  - Eucalyptus Radiata
+  - 1,8-Cineole
+  - Eucalyptol
+  - Cajeput Oil
+  - Melaleuca Cajuputi Oil
+cas_number: "8000-48-4"
+
+category: essential_oil_respiratory_risk
+product_types:
+  - skincare
+  - aromatherapy
+  - baby_products
+  - cleaning
+
+safety:
+  pregnancy:
+    rating: caution
+    summary: >
+      Eucalyptus oil in moderate aromatherapy dilutions is generally
+      tolerated during pregnancy. Avoid concentrated topical use or
+      prolonged diffuser exposure.
+    dose_dependent: true
+    exposure_route: multiple
+    evidence_strength: moderate
+
+  nursing:
+    rating: caution
+    summary: >
+      Safe at standard aromatherapy dilutions for the mother.
+      Keep diffusers out of the infant's room and do not apply
+      eucalyptus products to the breast area.
+    dose_dependent: true
+    exposure_route: multiple
+    evidence_strength: moderate
+
+  baby:
+    rating: avoid
+    summary: >
+      Eucalyptus oil's primary constituent (1,8-cineole) can cause
+      respiratory distress in young children. AAP cautions against
+      essential oil use around infants, especially respiratory-
+      stimulating oils. Avoid for children under 2.
+    details: >
+      1,8-Cineole (eucalyptol) is the major constituent of eucalyptus
+      oil (typically 60-90 percent). Case reports document respiratory
+      distress, central nervous system depression, and seizures in
+      young children exposed to eucalyptus oil through ingestion,
+      topical application to the face, or concentrated inhalation.
+      The main mechanism is direct irritation of the respiratory
+      mucosa and central nervous system effects.
+
+      The AAP recommends avoiding essential oils around infants.
+      Eucalyptus oil should not be applied directly to infant skin,
+      diffused in the infant's sleeping room, or used in infant bath
+      products. Many "natural" chest rubs and cold remedies contain
+      eucalyptus that are NOT intended for infants.
+
+      Eucalyptus-containing adult products (Vicks VapoRub also
+      contains eucalyptus oil alongside camphor) should not be
+      applied to infants. Use only products explicitly formulated
+      for infants.
+    min_safe_age_months: 24
+    exposure_route: multiple
+    evidence_strength: moderate
+
+sources:
+  - ref: aap-essential-oils-children
+  - ref: tisserand-young-eo-safety
+
+safer_alternatives:
+  - name: Cool-mist humidifier (plain water)
+    id: null
+    note: "For nasal congestion; no essential oils needed"
+  - name: Saline nasal drops
+    id: null
+    note: "Safe for infant congestion"
+
+notes: >
+  Eucalyptus oil is one of the most commonly used essential oils and
+  appears in many "natural" cold remedies, chest rubs, and cleaning
+  products. The danger for infants is not in trace amounts in
+  commercial cleaning products (where the concentration is very low
+  and the exposure is indirect) but in direct topical application,
+  concentrated aromatherapy diffusion near the infant, or accidental
+  ingestion of the pure essential oil.
+last_reviewed: "2026-04-05"
+rating_confidence: high

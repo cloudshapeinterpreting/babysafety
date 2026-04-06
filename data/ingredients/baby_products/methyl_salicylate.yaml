@@ -1,0 +1,105 @@
+id: methyl_salicylate
+name: Methyl Salicylate
+aliases:
+  - Wintergreen Oil
+  - Gaultheria Procumbens
+  - Oil of Wintergreen
+  - Betula Lenta Oil
+  - Sweet Birch Oil
+  - 2-Hydroxybenzoic Acid Methyl Ester
+cas_number: "119-36-8"
+
+category: essential_oil_toxic
+product_types:
+  - skincare
+  - aromatherapy
+  - baby_products
+
+safety:
+  pregnancy:
+    rating: avoid
+    summary: >
+      Methyl salicylate is a concentrated salicylate (1 mL of
+      wintergreen oil contains the equivalent of approximately 1.4 g
+      aspirin). Oral and high-dose topical salicylates are associated
+      with pregnancy complications and should be avoided.
+    details: >
+      Methyl salicylate is rapidly absorbed through the skin and
+      metabolized to salicylic acid. Wintergreen oil is approximately
+      98 percent methyl salicylate, making even small volumes
+      pharmacologically significant. High-dose salicylate exposure
+      in pregnancy is associated with complications including
+      premature closure of the ductus arteriosus, hemorrhage, and
+      prolonged labor. The avoid rating applies to concentrated
+      wintergreen/methyl salicylate products (essential oils, muscle
+      rubs with high concentrations). Low-concentration presence in
+      topical products (e.g., trace amounts in lip balm flavoring)
+      is lower risk but the precautionary principle applies.
+    dose_dependent: true
+    exposure_route: multiple
+    evidence_strength: strong
+
+  nursing:
+    rating: caution
+    summary: >
+      Topical methyl salicylate products can deliver systemic
+      salicylate doses. Avoid concentrated products during nursing.
+      Do not apply muscle rubs containing methyl salicylate to the
+      breast area.
+    dose_dependent: true
+    exposure_route: multiple
+    evidence_strength: moderate
+
+  baby:
+    rating: avoid
+    summary: >
+      Potentially lethal for infants. Methyl salicylate causes
+      salicylate poisoning with Reye syndrome risk. Even small
+      topical exposures on infant skin are dangerous due to rapid
+      absorption. Never apply wintergreen oil or methyl salicylate-
+      containing muscle rubs to infants.
+    details: >
+      Methyl salicylate is extremely toxic to children. Ingestion of
+      less than 5 mL of wintergreen oil can be lethal in a child.
+      Topical application to infant skin results in rapid and
+      significant absorption because of the thin stratum corneum and
+      high surface-area-to-body-weight ratio. Once absorbed, the
+      salicylate creates the same toxic effects as aspirin overdose:
+      metabolic acidosis, hyperthermia, seizures, and potentially
+      fatal multi-organ failure.
+
+      Additionally, systemic salicylate exposure in children with
+      viral infections is associated with Reye syndrome, a rare but
+      often fatal condition affecting the brain and liver. For this
+      reason, the AAP has long warned against salicylate use in
+      children.
+
+      Products commonly containing methyl salicylate include: muscle
+      rubs (Icy Hot, Bengay, Tiger Balm), some mouthwashes, and
+      wintergreen essential oil. These should be stored well out of
+      reach of children.
+    min_safe_age_months: null
+    exposure_route: multiple
+    evidence_strength: strong
+
+sources:
+  - ref: reye-syndrome-salicylates
+  - ref: aap-aspirin-reye
+  - ref: tisserand-young-eo-safety
+  - ref: aap-essential-oils-children
+
+safer_alternatives:
+  - name: Infant acetaminophen (with pediatrician guidance)
+    id: null
+    note: "For pain relief in infants; does not carry salicylate/Reye risk"
+
+notes: >
+  Wintergreen oil is one of the most dangerous essential oils for
+  children because it is nearly pure methyl salicylate. A single
+  teaspoon can be lethal to a child. Many parents are unaware that
+  wintergreen oil and common muscle rubs like Icy Hot, Bengay, and
+  Tiger Balm contain this compound. These products should be
+  treated like medications and stored out of reach. Poison control
+  should be contacted immediately if a child ingests any amount.
+last_reviewed: "2026-04-05"
+rating_confidence: high

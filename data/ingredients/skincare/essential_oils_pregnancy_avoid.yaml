@@ -3,9 +3,6 @@ name: Essential Oils Contraindicated in Pregnancy
 aliases:
   - Pennyroyal Oil
   - Mentha Pulegium
-  - Wintergreen Oil
-  - Gaultheria Procumbens
-  - Methyl Salicylate
   - Clary Sage Oil
   - Salvia Sclarea
   - Sage Oil
@@ -29,9 +26,6 @@ aliases:
   - Ocimum Basilicum
   - Wormwood Oil
   - Artemisia Absinthium
-  - Camphor Oil
-  - Camphora
-  - Cinnamomum Camphora
 cas_number: null
 
 category: essential_oil_high_risk

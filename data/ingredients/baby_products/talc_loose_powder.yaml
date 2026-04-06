@@ -1,0 +1,97 @@
+id: talc_loose_powder
+name: Talc (Loose Powder)
+aliases:
+  - Talc
+  - Talcum Powder
+  - Baby Powder
+  - Magnesium Silicate
+  - Hydrated Magnesium Silicate
+  - Talcum
+  - Dusting Powder
+cas_number: "14807-96-6"
+
+category: powder_aspiration_risk
+product_types:
+  - baby_products
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Talc-containing cosmetics (pressed powder, foundation, eye
+      shadow) are safe during pregnancy. The concern is specific to
+      loose powder aspiration by infants, not adult cosmetic use.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing for the mother's cosmetic use. Keep loose
+      powder away from the infant during application.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: avoid
+    summary: >
+      AAP explicitly warns against using baby powder (talc or
+      cornstarch) on infants. Loose powder can be inhaled, causing
+      serious breathing problems and lung damage. Additionally,
+      historical talc contamination with asbestos poses a cancer
+      risk concern.
+    details: >
+      The American Academy of Pediatrics and the National Capital
+      Poison Center both warn against the use of baby powder on
+      infants. When loose powder is shaken, poured, or applied, it
+      creates an airborne cloud that infants can inhale. Talc
+      particles that reach the lower airways can cause severe
+      respiratory distress, pneumonitis, and in some cases death
+      from aspiration.
+
+      The AAP states on HealthyChildren.org: "Don't use baby
+      powder, which can cause breathing problems." This applies to
+      both talc-based and cornstarch-based baby powders, as both
+      create inhalable particles.
+
+      Separately, there is an ongoing concern about historical
+      contamination of talc with asbestos fibers. While
+      cosmetic-grade talc is required to be asbestos-free, studies
+      have detected trace asbestos in some products, leading to
+      litigation and product recalls. Johnson & Johnson discontinued
+      North American sales of talc-based baby powder in 2020.
+
+      Modern alternative: diaper cream or ointment (zinc oxide,
+      petrolatum) applied directly. These provide better moisture
+      barrier protection than powder without the aspiration risk.
+    min_safe_age_months: null
+    exposure_route: inhalation
+    evidence_strength: strong
+
+sources:
+  - ref: aap-no-baby-powder
+  - ref: aap-sunscreen-policy
+
+safer_alternatives:
+  - name: Zinc Oxide Diaper Cream
+    id: zinc_oxide
+    note: "Applied directly; no airborne particles; provides moisture barrier"
+  - name: Petrolatum-based Barrier Ointment
+    id: petrolatum
+    note: "Applied directly; inert; no aspiration risk"
+
+notes: >
+  The baby powder tradition is deeply cultural, and many grandparents
+  or family members may suggest using it. The message should be
+  delivered respectfully: modern pediatric guidance has moved away
+  from baby powder entirely in favor of barrier creams. This is not
+  about the quality of any specific brand but about the physical
+  risk of infants inhaling loose powder particles. This entry uses
+  "loose powder" in the name to distinguish from talc in pressed
+  cosmetics (like face powder or eye shadow) which is safe for
+  adult use because it doesn't become airborne during application.
+last_reviewed: "2026-04-05"
+rating_confidence: high

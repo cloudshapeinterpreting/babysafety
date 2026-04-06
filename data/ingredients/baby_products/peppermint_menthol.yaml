@@ -1,0 +1,99 @@
+id: peppermint_menthol
+name: Peppermint Oil / Menthol
+aliases:
+  - Peppermint Oil
+  - Menthol
+  - Mentha Piperita
+  - Mentha Piperita Oil
+  - L-Menthol
+  - Mint Oil
+  - Peppermint Extract
+cas_number: "8006-90-4"
+
+category: essential_oil_respiratory_risk
+product_types:
+  - skincare
+  - aromatherapy
+  - baby_products
+  - oral_care
+
+safety:
+  pregnancy:
+    rating: caution
+    summary: >
+      Peppermint oil in standard culinary amounts and moderate
+      aromatherapy dilutions is generally safe during pregnancy.
+      Avoid concentrated topical application.
+    dose_dependent: true
+    exposure_route: multiple
+    evidence_strength: moderate
+
+  nursing:
+    rating: caution
+    summary: >
+      Some evidence that peppermint may reduce milk supply. Avoid
+      concentrated use on or near the breasts. Occasional peppermint
+      tea or candy is unlikely to affect supply.
+    details: >
+      Peppermint has traditional use as a lactation suppressant,
+      though clinical evidence is mixed. Some nursing mothers report
+      reduced supply with regular peppermint consumption. The effect
+      is likely dose-dependent. Occasional use (peppermint tea,
+      candy) is generally fine; daily concentrated peppermint oil
+      supplements or topical application near the breasts is more
+      of a concern.
+    dose_dependent: true
+    exposure_route: multiple
+    evidence_strength: moderate
+
+  baby:
+    rating: avoid
+    summary: >
+      Menthol can trigger reflex apnea (sudden breathing cessation)
+      in infants. Do not apply peppermint or menthol-containing
+      products to infants. Keep peppermint oil away from infant face,
+      nose, and mouth.
+    details: >
+      Menthol (the primary active compound in peppermint oil) acts on
+      cold-sensitive TRPM8 receptors in the upper airway. In infants,
+      this stimulation can trigger reflex apnea -- a sudden cessation
+      of breathing -- and laryngospasm. Case reports document
+      respiratory distress in infants exposed to menthol through
+      topical application to the chest or face, or through proximity
+      to concentrated vapors.
+
+      Products containing menthol include: Vicks VapoRub (4.8
+      percent menthol), many cough drops, some lip balms, and
+      peppermint essential oil. None of these should be applied to
+      or used near infants. Peppermint essential oil should never
+      be diffused in an infant's sleeping room.
+
+      The AAP recommends against using essential oils (including
+      peppermint) around infants. For nasal congestion, use saline
+      drops and a cool-mist humidifier instead.
+    min_safe_age_months: 24
+    exposure_route: multiple
+    evidence_strength: moderate
+
+sources:
+  - ref: aap-essential-oils-children
+  - ref: tisserand-young-eo-safety
+
+safer_alternatives:
+  - name: Cool-mist humidifier
+    id: null
+    note: "For congestion relief in infants"
+  - name: Saline nasal drops
+    id: null
+    note: "Safe for infant nasal congestion"
+
+notes: >
+  Parents often reach for Vicks VapoRub when a baby is congested.
+  Regular Vicks contains both menthol and camphor -- both dangerous
+  for infants. Even "natural" products marketed as baby-safe sometimes
+  contain peppermint or menthol derivatives. Always read the
+  ingredient list. For adults, peppermint and menthol are safe and
+  well-tolerated; the concern is specific to infants and young
+  children with immature respiratory reflexes.
+last_reviewed: "2026-04-05"
+rating_confidence: high

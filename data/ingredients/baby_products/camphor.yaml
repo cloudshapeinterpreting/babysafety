@@ -1,0 +1,103 @@
+id: camphor
+name: Camphor
+aliases:
+  - Camphor Oil
+  - Camphora
+  - Cinnamomum Camphora
+  - 2-Bornanone
+  - 1,7,7-Trimethylbicyclo[2.2.1]heptan-2-one
+  - Camphorated Oil
+cas_number: "76-22-2"
+
+category: essential_oil_toxic
+product_types:
+  - skincare
+  - aromatherapy
+  - baby_products
+
+safety:
+  pregnancy:
+    rating: caution
+    summary: >
+      Camphor crosses the placenta. Avoid concentrated camphor
+      products during pregnancy. Brief exposure to low-concentration
+      topical products (e.g., Vicks VapoRub at 4.8 percent camphor)
+      is generally considered low risk.
+    details: >
+      Camphor is absorbed through intact skin and mucous membranes
+      and crosses the placental barrier. Case reports document fetal
+      toxicity from maternal camphor exposure. The risk is primarily
+      from ingestion or concentrated topical products, not from brief
+      inhalation of vapor rub. Pregnant women should avoid camphorated
+      oil (20 percent camphor, now banned from OTC sale in the US) and
+      concentrated aromatherapy products. Low-concentration topical
+      use of Vicks-type products is considered unlikely to cause harm.
+    dose_dependent: true
+    exposure_route: multiple
+    evidence_strength: moderate
+
+  nursing:
+    rating: caution
+    summary: >
+      Avoid concentrated camphor products during nursing. Do not
+      apply camphor-containing products (including Vicks VapoRub) to
+      the breast area or anywhere the infant might contact directly.
+    dose_dependent: true
+    exposure_route: multiple
+    evidence_strength: moderate
+
+  baby:
+    rating: avoid
+    summary: >
+      Camphor is a potent neurotoxin in infants and children.
+      Ingestion of as little as 5 mL of camphorated oil can be
+      lethal. Even topical application to infant skin can cause
+      seizures. Never apply camphor-containing products to infants.
+    details: >
+      Camphor causes direct neurotoxicity in children. The lethal
+      dose in children can be as low as 5 mL (approximately 1
+      teaspoon) of camphorated oil (20 percent concentration), though
+      fatalities have occurred with lower amounts. Symptoms of
+      toxicity include nausea, vomiting, and rapidly progressing to
+      seizures, respiratory depression, and coma. Dermal absorption
+      in infants is significant due to their thinner skin and higher
+      surface-area-to-body-weight ratio.
+
+      The FDA banned camphorated oil (containing 20 percent camphor)
+      from OTC sale. Products containing lower concentrations of
+      camphor (Vicks VapoRub = 4.8 percent) remain on the market but
+      should NEVER be used on infants. Vicks BabyRub is a
+      camphor-free formulation made specifically for infants.
+
+      Even aromatherapy diffusers with camphor should be kept away
+      from infant sleeping areas.
+    min_safe_age_months: 24
+    exposure_route: multiple
+    evidence_strength: strong
+
+sources:
+  - ref: camphor-pediatric-toxicity
+  - ref: aap-essential-oils-children
+  - ref: tisserand-young-eo-safety
+
+safer_alternatives:
+  - name: Vicks BabyRub (camphor-free)
+    id: null
+    note: "Formulated specifically for infants without camphor"
+  - name: Cool-mist humidifier
+    id: null
+    note: "For nasal congestion in infants; no medication needed"
+  - name: Saline nasal drops
+    id: null
+    note: "Safe for infant nasal congestion"
+
+notes: >
+  Parents commonly use Vicks VapoRub for infant congestion without
+  realizing it contains camphor. The key message: regular Vicks
+  VapoRub is NOT safe for infants. Vicks BabyRub exists as a
+  camphor-free alternative. For any congestion relief in infants,
+  saline drops, a cool-mist humidifier, and gentle nasal suction
+  are safer options. If a child has been exposed to camphor and
+  shows any neurological symptoms, seek emergency care immediately.
+last_reviewed: "2026-04-05"
+rating_confidence: high
