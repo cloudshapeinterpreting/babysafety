@@ -1,0 +1,84 @@
+id: fragrance
+name: Fragrance
+aliases:
+  - Parfum
+  - Fragrance/Parfum
+  - Aroma
+  - Flavor
+  - Natural Fragrance
+  - Synthetic Fragrance
+cas_number: null
+
+category: fragrance
+product_types:
+  - skincare
+  - cosmetics
+  - baby_products
+  - cleaning
+
+safety:
+  pregnancy:
+    rating: caution
+    summary: >
+      "Fragrance" or "Parfum" on a label can represent up to 200+
+      undisclosed chemicals including potential phthalates, musks, and
+      allergens. Choose fragrance-free products during pregnancy when
+      possible.
+    details: >
+      US cosmetic labeling law allows manufacturers to list "fragrance"
+      or "parfum" without disclosing individual fragrance components,
+      which are considered trade secrets. This means a single
+      "fragrance" listing may contain dozens of chemicals, some of
+      which (e.g., phthalates like DEP, synthetic musks) have
+      endocrine-disrupting potential. The EU requires listing of 26
+      known fragrance allergens when above threshold concentrations,
+      but the US does not. ACOG and dermatologists recommend choosing
+      fragrance-free products during pregnancy to minimize exposure
+      to undisclosed chemicals.
+    dose_dependent: true
+    exposure_route: multiple
+    evidence_strength: moderate
+
+  nursing:
+    rating: caution
+    summary: >
+      Continue to prefer fragrance-free products while nursing.
+      Fragranced products on the breast area may also irritate the
+      infant's skin.
+    dose_dependent: true
+    exposure_route: multiple
+    evidence_strength: moderate
+
+  baby:
+    rating: caution
+    summary: >
+      Fragrance is the most common cause of contact dermatitis and
+      allergic reactions in cosmetics. Choose fragrance-free products
+      for infants and children.
+    details: >
+      Infant skin is thinner and more permeable. Fragranced baby
+      products increase the risk of contact dermatitis, eczema flares,
+      and sensitization. Pediatric dermatologists recommend
+      fragrance-free products for all infants.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: moderate
+
+sources:
+  - ref: fda-phthalates-cosmetics
+  - ref: eu-cosmetics-annex-ii
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives:
+  - name: Fragrance-free products
+    id: null
+    note: "Look for 'fragrance-free' (not 'unscented' which may use masking fragrances)"
+
+notes: >
+  Important distinction: "fragrance-free" means no fragrance
+  ingredients added. "Unscented" may contain masking fragrances to
+  neutralize other ingredient odors -- these still count as fragrance
+  exposure. When shopping for pregnancy or baby products, always look
+  for "fragrance-free" specifically.
+last_reviewed: "2026-04-05"
+rating_confidence: high

@@ -1,0 +1,55 @@
+id: niacinamide
+name: Niacinamide
+aliases:
+  - Nicotinamide
+  - Vitamin B3
+  - Niacin Amide
+  - 3-Pyridinecarboxamide
+cas_number: "98-92-0"
+
+category: vitamin
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Vitamin B3 derivative. CIR-reviewed safe. Widely recommended
+      by dermatologists as a pregnancy-safe active for acne,
+      hyperpigmentation, and skin barrier support.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. Niacinamide is an essential nutrient
+      (vitamin B3).
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: strong
+
+sources:
+  - ref: cir-niacinamide
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Niacinamide is one of the most recommended pregnancy-safe skincare
+  actives. It addresses multiple concerns (acne, pigmentation,
+  redness, barrier function) without the risks associated with
+  retinoids or hydroquinone.
+last_reviewed: "2026-04-05"
+rating_confidence: high

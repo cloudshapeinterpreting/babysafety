@@ -1,0 +1,62 @@
+id: avobenzone
+name: Avobenzone
+aliases:
+  - Butyl Methoxydibenzoylmethane
+  - Parsol 1789
+  - Eusolex 9020
+cas_number: "70356-09-1"
+
+category: chemical_sunscreen
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: caution
+    summary: >
+      Chemical UVA filter. JAMA 2019 study showed systemic absorption
+      exceeding FDA threshold. FDA has not determined GRASE status.
+      Mineral sunscreens (zinc oxide, titanium dioxide) are preferred
+      during pregnancy.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: moderate
+
+  nursing:
+    rating: caution
+    summary: >
+      Systemic absorption documented. Mineral sunscreens preferred
+      during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: moderate
+
+  baby:
+    rating: caution
+    summary: >
+      AAP recommends mineral sunscreens for children, not chemical
+      filters.
+    min_safe_age_months: 6
+    exposure_route: topical
+    evidence_strength: moderate
+
+sources:
+  - ref: jama-sunscreen-absorption-2019
+  - ref: fda-sunscreen-actives-2021
+
+safer_alternatives:
+  - name: Zinc Oxide
+    id: zinc_oxide
+    note: "FDA GRASE mineral sunscreen"
+  - name: Titanium Dioxide
+    id: titanium_dioxide
+    note: "FDA GRASE mineral sunscreen"
+
+notes: >
+  Avobenzone is the most common UVA filter in US chemical sunscreens.
+  It is often paired with octinoxate (UVB) or octocrylene (stabilizer).
+  When switching to mineral sunscreen, look for broad-spectrum
+  products containing zinc oxide and/or titanium dioxide.
+last_reviewed: "2026-04-05"
+rating_confidence: high

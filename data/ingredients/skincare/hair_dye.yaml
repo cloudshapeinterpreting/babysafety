@@ -1,0 +1,87 @@
+id: hair_dye
+name: Hair Dye (Permanent/Semi-Permanent)
+aliases:
+  - Hair Color
+  - PPD
+  - p-Phenylenediamine
+  - Para-Phenylenediamine
+  - PTD
+  - p-Toluenediamine
+  - Resorcinol
+  - Aminophenol
+  - Hair Bleach
+  - Hydrogen Peroxide Developer
+cas_number: null
+
+category: hair_dye
+product_types:
+  - hair_care
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: caution
+    summary: >
+      ACOG states most experts consider hair dye chemicals not toxic
+      to the fetus. Absorption through scalp skin is limited. Many
+      providers recommend waiting until the second trimester and
+      using in a well-ventilated space.
+    details: >
+      Permanent and semi-permanent hair dyes contain chemicals
+      including PPD, PTD, resorcinol, aminophenols, and hydrogen
+      peroxide developers. ACOG's patient guidance states that
+      "most experts consider it safe to color your hair while
+      pregnant" because the chemicals are not highly toxic and
+      scalp absorption is limited. However, there are no controlled
+      studies of hair dye use during pregnancy.
+
+      Practical recommendations: wait until second trimester
+      if concerned; use in a well-ventilated area; consider
+      highlights or balayage (which don't touch the scalp) over
+      full-scalp application; wear gloves.
+    dose_dependent: true
+    exposure_route: topical
+    evidence_strength: moderate
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. Minimal systemic absorption from scalp
+      application.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: moderate
+
+  baby:
+    rating: caution
+    summary: >
+      Hair dye products should not be used on children.
+    min_safe_age_months: null
+    exposure_route: topical
+    evidence_strength: limited
+
+sources:
+  - ref: acog-hair-dye-pregnancy
+  - ref: acog-skincare-pregnancy-2021
+  - ref: eu-cosmetics-annex-ii
+
+safer_alternatives:
+  - name: Highlights or balayage
+    id: null
+    note: "Avoids full scalp contact; reduces absorption"
+  - name: Henna (pure, single-ingredient)
+    id: null
+    note: "Natural plant dye; generally considered safe but some people are allergic; avoid 'black henna' which contains PPD"
+  - name: Semi-permanent or temporary dyes
+    id: null
+    note: "Lower chemical load than permanent dyes"
+
+notes: >
+  This is a class entry covering permanent and semi-permanent hair
+  dye chemicals. About 60 percent of pregnant women continue to
+  dye their hair. The ACOG guidance is reassuring but not based on
+  rigorous study data. The practical approach most providers
+  recommend: delay until second trimester, use highlights rather
+  than all-over color, ensure ventilation, wear gloves.
+last_reviewed: "2026-04-05"
+rating_confidence: high

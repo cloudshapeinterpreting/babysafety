@@ -1,0 +1,57 @@
+id: tocopherol
+name: Tocopherol
+aliases:
+  - Vitamin E
+  - Alpha-Tocopherol
+  - Tocopheryl Acetate
+  - dl-Alpha-Tocopherol
+  - d-Alpha-Tocopherol
+  - Tocopheryl Linoleate
+  - Mixed Tocopherols
+cas_number: "59-02-9"
+
+category: antioxidant
+product_types:
+  - skincare
+  - cosmetics
+  - baby_products
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Vitamin E and its esters. CIR-reviewed safe. Common antioxidant
+      in moisturizers and serums. No pregnancy concerns at topical
+      cosmetic concentrations.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. Vitamin E is an essential nutrient.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: strong
+
+sources:
+  - ref: cir-tocopherol
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Tocopherol (vitamin E) and tocopheryl acetate are among the most
+  common antioxidants in skincare products. They appear on virtually
+  every moisturizer ingredient list.
+last_reviewed: "2026-04-05"
+rating_confidence: high

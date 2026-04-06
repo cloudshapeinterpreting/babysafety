@@ -401,3 +401,91 @@ reye-syndrome-salicylates:
   title: "Reye Syndrome and Salicylate Use in Children"
   url: "https://www.cdc.gov/reyes-syndrome/about/index.html"
   note: "CDC documents the link between aspirin/salicylate use in children with viral infections and Reye syndrome; methyl salicylate (wintergreen oil) is a concentrated salicylate source"
+
+# --- Sources for Pregnancy CAUTION + Common Safe Batch ---
+
+acog-hair-dye-pregnancy:
+  type: guideline
+  org: ACOG
+  title: "Is It Safe to Dye My Hair During Pregnancy?"
+  url: "https://www.acog.org/womens-health/experts-and-stories/ask-acog/is-it-safe-to-dye-my-hair-during-pregnancy"
+  note: "ACOG states most experts consider hair dye not toxic to fetus; chemicals in permanent and semi-permanent dyes are not highly toxic; limited skin absorption"
+
+mothertobaby-benzoyl-peroxide:
+  type: guideline
+  org: OTIS
+  title: "MotherToBaby Fact Sheet: Topical Acne Treatments"
+  url: "https://mothertobaby.org/fact-sheets/topical-acne-treatments-pregnancy/"
+  note: "Topical benzoyl peroxide is among acne treatment options that may be used in pregnancy; only about 5 percent is absorbed through the skin"
+
+fda-triclosan-ban-2016:
+  type: regulatory
+  org: FDA
+  title: "FDA Bans Triclosan and 18 Other Antiseptic Wash Ingredients"
+  year: 2016
+  url: "https://www.fda.gov/consumers/consumer-updates/antibacterial-soap-you-can-skip-it-use-plain-soap-and-water"
+  note: "FDA banned triclosan and 18 other active ingredients from OTC consumer antiseptic wash products; manufacturers did not demonstrate safety and effectiveness; endocrine disruption concerns"
+
+cir-phenoxyethanol:
+  type: review
+  org: CIR
+  title: "Safety Assessment of Phenoxyethanol When Used as a Cosmetic Ingredient"
+  journal: "International Journal of Toxicology"
+  year: 2020
+  url: "https://www.cir-safety.org/ingredients"
+  primary: true
+  note: "CIR concluded phenoxyethanol is safe as used in cosmetics at concentrations up to 1.0 percent"
+
+cir-parabens:
+  type: review
+  org: CIR
+  title: "Safety Assessment of Parabens as Used in Cosmetics"
+  journal: "International Journal of Toxicology"
+  year: 2020
+  url: "https://www.cir-safety.org/ingredients"
+  primary: true
+  note: "CIR concluded methylparaben, propylparaben, and butylparaben are safe as used in cosmetics"
+
+eu-sccs-parabens:
+  type: regulatory
+  org: "EU SCCS"
+  title: "SCCS Opinion on Propylparaben and Butylparaben"
+  year: 2021
+  url: "https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en"
+  note: "EU SCCS considers propylparaben safe up to 0.14 percent in cosmetics; restricts use in leave-on products for children under 3 for butylparaben and propylparaben"
+
+cir-niacinamide:
+  type: review
+  org: CIR
+  title: "Safety Assessment of Niacinamide as Used in Cosmetics"
+  journal: "International Journal of Toxicology"
+  year: 2005
+  url: "https://www.cir-safety.org/ingredients"
+  primary: true
+  note: "CIR concluded niacinamide is safe in cosmetics in the present practices of use and concentration"
+
+cir-tocopherol:
+  type: review
+  org: CIR
+  title: "Safety Assessment of Tocopherols and Tocotrienols as Used in Cosmetics"
+  journal: "International Journal of Toxicology"
+  year: 2021
+  url: "https://www.cir-safety.org/ingredients"
+  primary: true
+  note: "CIR concluded tocopherol and related vitamin E forms are safe in cosmetic formulations"
+
+acog-azelaic-acid:
+  type: guideline
+  org: ACOG
+  title: "ACOG Guidance: Azelaic Acid in Pregnancy"
+  note: "ACOG includes azelaic acid among topical treatments considered safe for use during pregnancy for acne and hyperpigmentation"
+
+cir-cetearyl-alcohol:
+  type: review
+  org: CIR
+  title: "Safety Assessment of Cetearyl Alcohol and Related Fatty Alcohols"
+  journal: "International Journal of Toxicology"
+  year: 2020
+  url: "https://www.cir-safety.org/ingredients"
+  primary: true
+  note: "CIR concluded cetearyl alcohol (a blend of cetyl and stearyl alcohols) is safe in cosmetics"

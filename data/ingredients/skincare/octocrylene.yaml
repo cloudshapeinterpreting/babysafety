@@ -1,0 +1,52 @@
+id: octocrylene
+name: Octocrylene
+aliases:
+  - 2-Ethylhexyl 2-Cyano-3,3-Diphenylacrylate
+cas_number: "6197-30-4"
+
+category: chemical_sunscreen
+product_types:
+  - skincare
+
+safety:
+  pregnancy:
+    rating: caution
+    summary: >
+      Chemical sunscreen stabilizer/UVB filter. Systemic absorption
+      documented in JAMA 2019. Detected in breast milk. FDA has not
+      determined GRASE. Mineral sunscreens preferred during pregnancy.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: moderate
+  nursing:
+    rating: caution
+    summary: >
+      Detected in breast milk in biomonitoring studies. Mineral
+      alternatives preferred.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: moderate
+  baby:
+    rating: caution
+    summary: >
+      AAP recommends mineral sunscreens for children.
+    min_safe_age_months: 6
+    exposure_route: topical
+    evidence_strength: moderate
+
+sources:
+  - ref: jama-sunscreen-absorption-2019
+  - ref: fda-sunscreen-actives-2021
+
+safer_alternatives:
+  - name: Zinc Oxide
+    id: zinc_oxide
+    note: "FDA GRASE mineral sunscreen"
+
+notes: >
+  Octocrylene is commonly used as a stabilizer for avobenzone and as
+  a UVB filter. It can degrade into benzophenone (a potential
+  endocrine disruptor) over time, particularly in older sunscreen
+  products.
+last_reviewed: "2026-04-05"
+rating_confidence: high

@@ -37,8 +37,8 @@ def test_case_insensitive():
 def test_secondary_name_match():
     db = _get_db()
     parsed = ParsedIngredient(
-        raw="Niacinamide (Vitamin A)",
-        name="Niacinamide",
+        raw="Mysteryamine (Vitamin A)",
+        name="Mysteryamine",
         secondary_names=["Vitamin A"],
         position=0,
     )

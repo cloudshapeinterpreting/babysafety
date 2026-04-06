@@ -1,0 +1,53 @@
+id: cetearyl_alcohol
+name: Cetearyl Alcohol
+aliases:
+  - Cetostearyl Alcohol
+  - Cetylstearyl Alcohol
+  - C16-18 Alcohols
+cas_number: "67762-27-0"
+
+category: fatty_alcohol
+product_types:
+  - skincare
+  - baby_products
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      A blend of cetyl and stearyl alcohols (fatty alcohols). CIR-
+      reviewed safe. Emulsifier and thickener found in virtually every
+      lotion and cream. NOT a drying alcohol.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. Standard cosmetic emulsifier.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants. Common in baby lotions and creams.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: strong
+
+sources:
+  - ref: cir-cetearyl-alcohol
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Like cetyl alcohol, cetearyl alcohol is a fatty alcohol (not a
+  drying alcohol). It is one of the most common emulsifiers in
+  cosmetics and appears on nearly every lotion ingredient list.
+last_reviewed: "2026-04-05"
+rating_confidence: high

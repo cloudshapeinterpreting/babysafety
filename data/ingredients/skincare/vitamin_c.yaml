@@ -1,0 +1,59 @@
+id: vitamin_c
+name: Vitamin C (L-Ascorbic Acid)
+aliases:
+  - L-Ascorbic Acid
+  - Ascorbic Acid
+  - Ascorbyl Glucoside
+  - Sodium Ascorbyl Phosphate
+  - Ascorbyl Palmitate
+  - Ascorbyl Tetraisopalmitate
+  - Magnesium Ascorbyl Phosphate
+  - 3-O-Ethyl Ascorbic Acid
+  - Ethyl Ascorbic Acid
+cas_number: "50-81-7"
+
+category: antioxidant
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Essential nutrient (vitamin C). CIR-reviewed safe in cosmetics.
+      Widely recommended as a pregnancy-safe antioxidant and
+      brightening agent.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. Essential dietary nutrient.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: strong
+
+sources:
+  - ref: aad-pregnancy-skincare
+  - ref: acog-skincare-pregnancy-2021
+
+safer_alternatives: []
+
+notes: >
+  Vitamin C serums are among the most popular skincare products.
+  All forms of topical vitamin C (L-ascorbic acid, ascorbyl
+  glucoside, sodium ascorbyl phosphate, etc.) are safe during
+  pregnancy and nursing.
+last_reviewed: "2026-04-05"
+rating_confidence: high

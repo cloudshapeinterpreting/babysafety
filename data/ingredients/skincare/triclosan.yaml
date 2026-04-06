@@ -1,0 +1,72 @@
+id: triclosan
+name: Triclosan
+aliases:
+  - 2,4,4'-Trichloro-2'-hydroxydiphenyl Ether
+  - Irgasan DP 300
+  - Microban
+  - 5-Chloro-2-(2,4-dichlorophenoxy)phenol
+cas_number: "3380-34-5"
+
+category: antimicrobial
+product_types:
+  - skincare
+  - oral_care
+  - cleaning
+
+safety:
+  pregnancy:
+    rating: caution
+    summary: >
+      Endocrine disruptor with thyroid and estrogenic activity in
+      animal studies. FDA banned from consumer antiseptic wash
+      products in 2016. Still found in some toothpastes and
+      hospital-grade products.
+    details: >
+      Triclosan was widely used in antibacterial soaps, hand
+      sanitizers, and consumer products until the FDA's 2016 ban
+      from consumer antiseptic wash products. The ban was based on
+      manufacturers' inability to demonstrate long-term safety and
+      effectiveness. Animal studies have shown thyroid hormone
+      disruption and estrogenic effects. Triclosan remains in some
+      FDA-approved products including Colgate Total toothpaste (at
+      0.3 percent) and some hospital-grade hand washes. During
+      pregnancy, choose regular soap and water over antibacterial
+      products with triclosan.
+    dose_dependent: true
+    exposure_route: multiple
+    evidence_strength: moderate
+
+  nursing:
+    rating: caution
+    summary: >
+      Detected in breast milk. Continue to avoid triclosan-containing
+      products during nursing.
+    dose_dependent: true
+    exposure_route: multiple
+    evidence_strength: moderate
+
+  baby:
+    rating: caution
+    summary: >
+      Avoid triclosan-containing products for infants. Choose regular
+      soap and water or gentle baby-specific cleansers.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: moderate
+
+sources:
+  - ref: fda-triclosan-ban-2016
+  - ref: eu-sccs-cosmetic-safety
+
+safer_alternatives:
+  - name: Regular soap and water
+    id: null
+    note: "FDA states plain soap and water is equally effective as antibacterial soap for consumer handwashing"
+
+notes: >
+  Most consumer products have already removed triclosan following the
+  2016 FDA ban. However, it still appears in some toothpastes,
+  hospital-grade products, and imported items. Check ingredient lists
+  on any product labeled "antibacterial" or "antimicrobial."
+last_reviewed: "2026-04-05"
+rating_confidence: high

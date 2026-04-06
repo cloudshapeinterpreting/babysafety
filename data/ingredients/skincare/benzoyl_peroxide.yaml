@@ -1,0 +1,72 @@
+id: benzoyl_peroxide
+name: Benzoyl Peroxide
+aliases:
+  - BPO
+  - Dibenzoyl Peroxide
+  - Benzoyl Superoxide
+  - Clearasil
+  - PanOxyl
+cas_number: "94-36-0"
+
+category: acne_treatment
+product_types:
+  - skincare
+
+safety:
+  pregnancy:
+    rating: caution
+    summary: >
+      ACOG and MotherToBaby include topical benzoyl peroxide among
+      acne treatment options that may be used during pregnancy. Only
+      about 5 percent is absorbed through the skin. Not a hard avoid,
+      but limited pregnancy-specific data.
+    details: >
+      Benzoyl peroxide is a topical antimicrobial and keratolytic used
+      in OTC acne products at 2.5-10 percent concentrations. It
+      works by killing acne-causing bacteria and is the most common
+      active in drugstore acne treatments. Systemic absorption is low
+      (approximately 5 percent) and it is rapidly metabolized to
+      benzoic acid, a common food additive. ACOG does not list
+      benzoyl peroxide among ingredients to avoid, and MotherToBaby
+      includes it as an option for pregnancy acne. However, there
+      are no controlled human studies of benzoyl peroxide use during
+      pregnancy, so the rating reflects limited direct evidence.
+    dose_dependent: true
+    exposure_route: topical
+    evidence_strength: moderate
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. Minimal systemic absorption. Avoid
+      applying to the breast area before feeding.
+    dose_dependent: true
+    exposure_route: topical
+    evidence_strength: moderate
+
+  baby:
+    rating: caution
+    summary: >
+      Not formulated for infant skin. OTC acne products are
+      intended for adolescents and adults.
+    min_safe_age_months: null
+    exposure_route: topical
+    evidence_strength: limited
+
+sources:
+  - ref: mothertobaby-benzoyl-peroxide
+  - ref: acog-skincare-pregnancy-2021
+
+safer_alternatives:
+  - name: Azelaic Acid
+    id: azelaic_acid
+    note: "ACOG-recommended pregnancy-safe acne treatment"
+
+notes: >
+  Benzoyl peroxide is one of the most asked-about ingredients in
+  pregnancy skincare. The key message: it is NOT in the same
+  category as retinoids (which are a hard avoid). It is cautionary
+  rather than prohibited, and most dermatologists will okay its
+  continued use during pregnancy.
+last_reviewed: "2026-04-05"
+rating_confidence: high

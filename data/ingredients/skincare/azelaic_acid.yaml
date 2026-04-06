@@ -1,0 +1,62 @@
+id: azelaic_acid
+name: Azelaic Acid
+aliases:
+  - Nonanedioic Acid
+  - 1,7-Heptanedicarboxylic Acid
+  - Azelex
+  - Finacea
+cas_number: "123-99-9"
+
+category: acne_treatment
+product_types:
+  - skincare
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      ACOG recommends azelaic acid as a pregnancy-safe treatment for
+      acne and hyperpigmentation. It is one of the most frequently
+      recommended retinoid alternatives during pregnancy.
+    details: >
+      Azelaic acid is a naturally occurring dicarboxylic acid
+      produced by the yeast Malassezia furfur on human skin. It has
+      antimicrobial, anti-inflammatory, and tyrosinase-inhibiting
+      properties. ACOG includes azelaic acid among topical treatments
+      considered safe for use during pregnancy. It is effective for
+      both acne and melasma, making it a versatile pregnancy-safe
+      active ingredient.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. Minimal systemic absorption.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: safe
+    summary: >
+      Not commonly used in infant products but no safety concerns
+      if present.
+    min_safe_age_months: null
+    exposure_route: topical
+    evidence_strength: moderate
+
+sources:
+  - ref: acog-azelaic-acid
+  - ref: acog-skincare-pregnancy-2021
+
+safer_alternatives: []
+
+notes: >
+  Azelaic acid is the go-to recommendation when a pregnant patient
+  needs to stop retinoids. It addresses both acne and
+  hyperpigmentation (the two main reasons people use retinoids)
+  with a strong safety profile during pregnancy.
+last_reviewed: "2026-04-05"
+rating_confidence: high

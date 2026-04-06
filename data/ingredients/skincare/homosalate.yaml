@@ -1,0 +1,52 @@
+id: homosalate
+name: Homosalate
+aliases:
+  - Homomenthyl Salicylate
+  - 3,3,5-Trimethylcyclohexyl Salicylate
+cas_number: "118-56-9"
+
+category: chemical_sunscreen
+product_types:
+  - skincare
+
+safety:
+  pregnancy:
+    rating: caution
+    summary: >
+      Chemical UVB filter with estrogenic activity in laboratory
+      studies. EU has restricted maximum concentration to 7.34 percent
+      (from 10 percent). FDA has not determined GRASE status.
+    dose_dependent: true
+    exposure_route: topical
+    evidence_strength: moderate
+  nursing:
+    rating: caution
+    summary: >
+      Systemic absorption documented. Mineral alternatives preferred.
+    dose_dependent: true
+    exposure_route: topical
+    evidence_strength: moderate
+  baby:
+    rating: caution
+    summary: >
+      AAP recommends mineral sunscreens for children.
+    min_safe_age_months: 6
+    exposure_route: topical
+    evidence_strength: moderate
+
+sources:
+  - ref: jama-sunscreen-absorption-2019
+  - ref: fda-sunscreen-actives-2021
+  - ref: eu-sccs-cosmetic-safety
+
+safer_alternatives:
+  - name: Zinc Oxide
+    id: zinc_oxide
+    note: "FDA GRASE mineral sunscreen"
+
+notes: >
+  Homosalate is a salicylate-based UVB filter commonly used alongside
+  avobenzone and octocrylene. The EU SCCS restricted its maximum
+  concentration in 2021 based on endocrine activity data.
+last_reviewed: "2026-04-05"
+rating_confidence: high

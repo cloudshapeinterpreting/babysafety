@@ -1,0 +1,57 @@
+id: phenoxyethanol
+name: Phenoxyethanol
+aliases:
+  - 2-Phenoxyethanol
+  - Ethylene Glycol Monophenyl Ether
+  - PhE
+  - Rose Ether
+cas_number: "122-99-6"
+
+category: preservative
+product_types:
+  - skincare
+  - baby_products
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Most common alternative to parabens as a cosmetic preservative.
+      CIR and EU SCCS consider it safe up to 1.0 percent in cosmetics.
+      No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing at cosmetic concentrations. Caution note:
+      avoid applying phenoxyethanol-containing products directly to
+      nipples immediately before breastfeeding.
+    dose_dependent: true
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations at standard
+      concentrations (up to 1.0 percent per EU/CIR).
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: strong
+
+sources:
+  - ref: cir-phenoxyethanol
+  - ref: eu-sccs-cosmetic-safety
+
+safer_alternatives: []
+
+notes: >
+  Phenoxyethanol is now the most widely used preservative in
+  "paraben-free" skincare. It has a strong safety record and is
+  accepted by both CIR and the EU SCCS.
+last_reviewed: "2026-04-05"
+rating_confidence: high

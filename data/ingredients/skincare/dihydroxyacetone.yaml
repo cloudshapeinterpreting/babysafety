@@ -1,0 +1,66 @@
+id: dihydroxyacetone
+name: Dihydroxyacetone
+aliases:
+  - DHA
+  - 1,3-Dihydroxyacetone
+  - Glycerone
+  - Self-Tanner
+  - Sunless Tanner
+cas_number: "96-26-4"
+
+category: self_tanner
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: caution
+    summary: >
+      FDA-approved for external topical use. Main concern is
+      inhalation exposure from spray tans, where DHA particles can
+      reach the lungs. Self-applied lotion/cream forms are lower risk.
+    details: >
+      Dihydroxyacetone (DHA) reacts with amino acids in the stratum
+      corneum to produce a temporary brown color. It is the only
+      FDA-approved sunless tanning agent. Topical application as a
+      lotion or cream has minimal systemic absorption. However, spray
+      tan booths create an aerosol that can be inhaled, and inhaled
+      DHA has not been evaluated for safety during pregnancy. The
+      precautionary approach: avoid spray tans during pregnancy; use
+      self-applied lotions if desired.
+    dose_dependent: true
+    exposure_route: multiple
+    evidence_strength: limited
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing for topical application. Avoid spray tans
+      near the infant.
+    dose_dependent: true
+    exposure_route: topical
+    evidence_strength: limited
+
+  baby:
+    rating: caution
+    summary: >
+      Not intended for infant use. No safety data for pediatric
+      application.
+    min_safe_age_months: null
+    exposure_route: topical
+    evidence_strength: limited
+
+sources:
+  - ref: fda-skin-protectant-monograph
+  - ref: acog-skincare-pregnancy-2021
+
+safer_alternatives: []
+
+notes: >
+  The key distinction is application method: self-applied lotion/cream
+  DHA is low risk; spray tan booth DHA is a precaution due to
+  inhalation. Many OB/GYNs will okay self-tanner lotion during
+  pregnancy while advising against spray tan booths.
+last_reviewed: "2026-04-05"
+rating_confidence: moderate

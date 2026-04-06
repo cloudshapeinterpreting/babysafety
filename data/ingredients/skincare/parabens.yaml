@@ -1,0 +1,80 @@
+id: parabens
+name: Parabens
+aliases:
+  - Methylparaben
+  - Propylparaben
+  - Butylparaben
+  - Ethylparaben
+  - Isobutylparaben
+  - Methyl 4-Hydroxybenzoate
+  - Propyl 4-Hydroxybenzoate
+  - Butyl 4-Hydroxybenzoate
+  - Ethyl 4-Hydroxybenzoate
+  - E218
+  - E214
+  - E216
+cas_number: "99-76-3"
+
+category: preservative
+product_types:
+  - skincare
+  - cosmetics
+  - baby_products
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      CIR and EU SCCS consider parabens safe at cosmetic concentrations.
+      The endocrine disruption debate exists but the regulatory
+      consensus is that parabens at used concentrations do not pose a
+      meaningful risk. Evidence_strength is moderate because the debate
+      is ongoing.
+    dose_dependent: true
+    exposure_route: topical
+    evidence_strength: moderate
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing at cosmetic concentrations.
+    dose_dependent: true
+    exposure_route: topical
+    evidence_strength: moderate
+
+  baby:
+    rating: caution
+    summary: >
+      EU restricts propylparaben and butylparaben concentrations
+      in leave-on products for children under 3. Methylparaben and
+      ethylparaben are unrestricted. Choose paraben-free products
+      for infants if preferred, but the risk is low.
+    details: >
+      The EU SCCS imposed concentration limits for propylparaben
+      (0.14 percent) and butylparaben in products for children
+      under 3, citing the precautionary principle given immature
+      endocrine systems. Methylparaben and ethylparaben are not
+      restricted for children. This is a precautionary restriction,
+      not an established harm finding.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: moderate
+
+sources:
+  - ref: cir-parabens
+  - ref: eu-sccs-parabens
+
+safer_alternatives:
+  - name: Phenoxyethanol
+    id: phenoxyethanol
+    note: "Most common paraben-free preservative"
+
+notes: >
+  Parabens have been the subject of public concern driven largely
+  by a 2004 study (Darbre et al.) that detected parabens in breast
+  tumor tissue. However, CIR, the EU SCCS, and the FDA have all
+  reviewed the evidence and concluded parabens are safe at cosmetic
+  concentrations. The EU's under-3 restriction for butyl/propyl
+  paraben is a precautionary measure, not evidence of harm.
+last_reviewed: "2026-04-05"
+rating_confidence: moderate

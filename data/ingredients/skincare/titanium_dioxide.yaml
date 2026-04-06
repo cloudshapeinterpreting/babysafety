@@ -1,0 +1,59 @@
+id: titanium_dioxide
+name: Titanium Dioxide
+aliases:
+  - TiO2
+  - CI 77891
+  - Titanium(IV) Oxide
+cas_number: "13463-67-7"
+
+category: mineral_sunscreen
+product_types:
+  - skincare
+  - baby_products
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      FDA GRASE mineral sunscreen, one of only two (alongside zinc
+      oxide). Physical UV blocker that sits on the skin surface with
+      negligible absorption. Recommended for pregnancy by ACOG and
+      dermatologists.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing. No systemic absorption.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  baby:
+    rating: safe
+    summary: >
+      AAP recommends mineral sunscreens (zinc oxide and/or titanium
+      dioxide) for children. Safe from 6 months.
+    min_safe_age_months: 6
+    exposure_route: topical
+    evidence_strength: definitive
+
+sources:
+  - ref: fda-zinc-oxide-grase
+  - ref: fda-sunscreen-actives-2021
+  - ref: aap-sunscreen-policy
+
+safer_alternatives: []
+
+notes: >
+  Titanium dioxide and zinc oxide are the only two sunscreen actives
+  the FDA has deemed GRASE (Generally Recognized as Safe and
+  Effective). They work by physically reflecting UV rays rather than
+  absorbing them chemically. Modern formulations have largely solved
+  the "white cast" issue that historically made mineral sunscreens
+  less cosmetically elegant.
+last_reviewed: "2026-04-05"
+rating_confidence: high

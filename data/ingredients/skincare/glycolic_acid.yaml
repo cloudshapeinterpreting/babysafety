@@ -1,0 +1,54 @@
+id: glycolic_acid
+name: Glycolic Acid
+aliases:
+  - AHA
+  - Alpha Hydroxy Acid
+  - Hydroxyacetic Acid
+  - 2-Hydroxyacetic Acid
+cas_number: "79-14-1"
+
+category: exfoliant
+product_types:
+  - skincare
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Safe at OTC cosmetic concentrations (up to ~10 percent). AHAs
+      including glycolic acid are considered safer alternatives to
+      salicylic acid (BHA) during pregnancy. Avoid high-concentration
+      chemical peels (30-70 percent) without dermatologist guidance.
+    dose_dependent: true
+    exposure_route: topical
+    evidence_strength: moderate
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing at cosmetic concentrations.
+    dose_dependent: true
+    exposure_route: topical
+    evidence_strength: moderate
+
+  baby:
+    rating: caution
+    summary: >
+      Not formulated for infant skin. Exfoliants are for adult use.
+    min_safe_age_months: null
+    exposure_route: topical
+    evidence_strength: limited
+
+sources:
+  - ref: acog-skincare-pregnancy-2021
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Glycolic acid (an AHA) is listed as an alternative to salicylic
+  acid (BHA) for pregnancy exfoliation. At-home products typically
+  contain 5-10 percent; professional peels go much higher.
+  Pregnancy-safe at standard OTC concentrations.
+last_reviewed: "2026-04-05"
+rating_confidence: high
