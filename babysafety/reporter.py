@@ -61,8 +61,9 @@ def _render_ingredient_block(
         name_line.append(aliases, style="dim")
     console.print(name_line)
 
+    evidence = stage_safety.evidence_strength.value
     info_parts = [
-        f"Rating: {label}",
+        f"Rating: {label} \\[{evidence}]",
         f"Confidence: {ingredient.rating_confidence.value.title()}",
         f"Exposure: {stage_safety.exposure_route.title()}",
     ]
@@ -127,11 +128,14 @@ def print_report(
     safe_count = len(safe)
     unknown = len(unrecognized) + len(insufficient)
 
+    recognized = total - len(unrecognized)
+    pct = (recognized * 100 // total) if total > 0 else 0
+
     header = Text()
     header.append(f" BabySafety Report -- {stage.value.title()}\n", style="bold")
     header.append(
-        f" {total} ingredients parsed: "
-        f"{flagged} flagged, {safe_count} safe, {unknown} unrecognized/insufficient"
+        f" {total} ingredients parsed: {recognized}/{total} recognized ({pct}%) | "
+        f"{flagged} flagged, {safe_count} safe, {unknown} unknown"
     )
     console.print(Panel(header, border_style="blue"))
 
@@ -210,7 +214,8 @@ def print_lookup(ingredient: Ingredient) -> None:
         color = RATING_COLORS[stage_safety.rating]
         label = RATING_LABELS[stage_safety.rating]
 
-        console.print(f"[bold]{stage_name.title()}[/bold]: [{color}]{label}[/{color}]")
+        evidence = stage_safety.evidence_strength.value
+        console.print(f"[bold]{stage_name.title()}[/bold]: [{color}]{label}[/{color}] [dim]\\[{evidence}][/dim]")
         console.print(f"  {stage_safety.summary}")
         if stage_safety.details:
             console.print(f"  {stage_safety.details}", style="dim")
@@ -269,6 +274,7 @@ def results_to_json(results: list[MatchResult], stage: Stage) -> str:
             entry["matched_via"] = result.matched_via
             if stage_safety:
                 entry["rating"] = stage_safety.rating.value
+                entry["evidence_strength"] = stage_safety.evidence_strength.value
                 entry["summary"] = stage_safety.summary
                 entry["dose_dependent"] = stage_safety.dose_dependent
         else:
