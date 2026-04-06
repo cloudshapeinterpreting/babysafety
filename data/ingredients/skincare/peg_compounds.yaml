@@ -1,0 +1,53 @@
+id: peg_compounds
+name: PEG Compounds
+aliases:
+  - PEG-100 Stearate
+  - PEG-40 Stearate
+  - PEG-8
+  - PEG-7 Glyceryl Cocoate
+  - PEG-150 Distearate
+  - PEG-6 Caprylic/Capric Glycerides
+  - PEG-40 Hydrogenated Castor Oil
+  - Polyethylene Glycol
+cas_number: "25322-68-3"
+
+category: emulsifier
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Polyethylene glycol-based emulsifiers and humectants. CIR-reviewed safe in cosmetics. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: strong
+
+sources:
+  - ref: cir-peg-compounds
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  PEG compounds are numbered by molecular weight (PEG-8 = small, PEG-150 = large). They serve as emulsifiers, humectants, and solubilizers. Historical concerns about 1,4-dioxane contamination are addressed by modern manufacturing purification standards.
+last_reviewed: "2026-04-05"
+rating_confidence: high

@@ -1,0 +1,48 @@
+id: allantoin
+name: Allantoin
+aliases:
+  - 5-Ureidohydantoin
+  - Glyoxyldiureide
+  - Cordianine
+cas_number: "97-59-6"
+
+category: skin_conditioner
+product_types:
+  - skincare
+  - baby_products
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Skin conditioning and protecting agent. FDA-recognized skin protectant. Commonly used in baby products and sensitive skin formulations. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: definitive
+
+sources:
+  - ref: fda-skin-protectant-monograph
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Allantoin is recognized by the FDA as a Category I (safe and effective) skin protectant at 0.5-2 percent concentrations. It promotes skin healing and is a staple in baby products, after-sun products, and sensitive skin formulations.
+last_reviewed: "2026-04-05"
+rating_confidence: high

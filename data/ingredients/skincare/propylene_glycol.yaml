@@ -1,0 +1,52 @@
+id: propylene_glycol
+name: Propylene Glycol
+aliases:
+  - 1,2-Propanediol
+  - Propane-1,2-diol
+  - PG
+  - Methylethylene Glycol
+  - E1520
+cas_number: "57-55-6"
+
+category: humectant
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Humectant and solvent. FDA GRAS for food use. CIR safe in cosmetics. Common carrier in cosmetic formulations. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: caution
+    summary: >
+      Generally safe but use with caution on premature or neonatal
+      skin. Higher percutaneous absorption in neonates due to
+      immature skin barrier.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: strong
+
+sources:
+  - ref: fda-gras-food-additives
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Propylene glycol is FDA GRAS for food use and CIR-safe in cosmetics. It is NOT ethylene glycol (antifreeze). The 'glycol' name causes confusion, but propylene glycol is chemically distinct and non-toxic at cosmetic concentrations.
+last_reviewed: "2026-04-05"
+rating_confidence: high

@@ -1,0 +1,52 @@
+id: caprylic_capric_triglyceride
+name: Caprylic/Capric Triglyceride
+aliases:
+  - MCT Oil
+  - Medium Chain Triglycerides
+  - Coconut-Derived Triglyceride
+  - Caprylic Triglyceride
+  - Capric Triglyceride
+  - Fractionated Coconut Oil
+cas_number: "65381-09-1"
+
+category: emollient
+product_types:
+  - skincare
+  - baby_products
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Coconut-derived medium-chain triglyceride emollient. Light, non-greasy moisturizer. CIR safe. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: definitive
+
+sources:
+  - ref: aad-pregnancy-skincare
+  - ref: fda-gras-food-additives
+
+safer_alternatives: []
+
+notes: >
+  Caprylic/capric triglyceride is derived from coconut oil but is NOT the same as coconut oil. It is a refined, fractionated form containing only medium-chain fatty acids. It is also used as an MCT oil dietary supplement.
+last_reviewed: "2026-04-05"
+rating_confidence: high

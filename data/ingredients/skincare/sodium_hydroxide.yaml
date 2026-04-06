@@ -1,0 +1,49 @@
+id: sodium_hydroxide
+name: Sodium Hydroxide
+aliases:
+  - Lye
+  - Caustic Soda
+  - NaOH
+  - Soda Lye
+cas_number: "1310-73-2"
+
+category: ph_adjuster
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      pH adjuster used at trace concentrations in cosmetics. Neutralizes acidic ingredients. Not a safety concern at cosmetic use levels. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: definitive
+
+sources:
+  - ref: fda-gras-food-additives
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Sodium hydroxide appears on ingredient lists because it is used to adjust pH during manufacturing. The final product contains only trace amounts. It is NOT present as lye/caustic soda in the finished product.
+last_reviewed: "2026-04-05"
+rating_confidence: high

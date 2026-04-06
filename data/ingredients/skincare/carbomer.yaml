@@ -1,0 +1,52 @@
+id: carbomer
+name: Carbomer
+aliases:
+  - Carbopol
+  - Polyacrylic Acid
+  - Carbomer 940
+  - Carbomer 934
+  - Carbomer Homopolymer
+  - Acrylates/C10-30 Alkyl Acrylate Crosspolymer
+cas_number: "9003-01-4"
+
+category: thickener
+product_types:
+  - skincare
+  - cosmetics
+  - baby_products
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Synthetic polymer thickener/gelling agent. CIR-reviewed safe. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: strong
+
+sources:
+  - ref: cir-carbomer
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Carbomer is the most common thickener in gel and lotion formulations. It creates the smooth, spreadable texture of most skincare products.
+last_reviewed: "2026-04-05"
+rating_confidence: high

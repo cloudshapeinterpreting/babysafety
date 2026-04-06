@@ -489,3 +489,30 @@ cir-cetearyl-alcohol:
   url: "https://www.cir-safety.org/ingredients"
   primary: true
   note: "CIR concluded cetearyl alcohol (a blend of cetyl and stearyl alcohols) is safe in cosmetics"
+
+cir-carbomer:
+  type: review
+  org: CIR
+  title: "Safety Assessment of Carbomers as Used in Cosmetics"
+  journal: "International Journal of Toxicology"
+  year: 2019
+  url: "https://www.cir-safety.org/ingredients"
+  primary: true
+  note: "CIR concluded carbomer (polyacrylic acid) polymers are safe in cosmetics in the present practices of use and concentration"
+
+cir-peg-compounds:
+  type: review
+  org: CIR
+  title: "Safety Assessment of PEG Compounds as Used in Cosmetics"
+  journal: "International Journal of Toxicology"
+  year: 2019
+  url: "https://www.cir-safety.org/ingredients"
+  primary: true
+  note: "CIR concluded PEG (polyethylene glycol) compounds are safe as used in cosmetics; concerns about 1,4-dioxane contamination are addressed by manufacturing purification standards"
+
+fda-gras-food-additives:
+  type: regulatory
+  org: FDA
+  title: "FDA GRAS (Generally Recognized as Safe) Substances Database"
+  url: "https://www.fda.gov/food/generally-recognized-safe-gras/gras-substances-scogs-database"
+  note: "FDA database of substances generally recognized as safe for use in food; includes citric acid, xanthan gum, propylene glycol, and other ingredients also used in cosmetics"

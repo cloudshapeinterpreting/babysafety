@@ -1,0 +1,52 @@
+id: steareth
+name: Steareth (Emulsifier Family)
+aliases:
+  - Steareth-2
+  - Steareth-20
+  - Steareth-21
+  - Steareth-10
+  - Steareth-100
+  - PEG-2 Stearyl Ether
+  - PEG-20 Stearyl Ether
+cas_number: "9005-00-9"
+
+category: emulsifier
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Ethoxylated stearyl alcohol emulsifier family. Helps oil and water phases mix in creams and lotions. CIR-reviewed safe. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: strong
+
+sources:
+  - ref: cir-peg-compounds
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Steareth compounds are numbered by their degree of ethoxylation (Steareth-2, -20, -21, etc.). Higher numbers are more water-soluble. They are non-ionic emulsifiers found in most cream and lotion formulations.
+last_reviewed: "2026-04-05"
+rating_confidence: high

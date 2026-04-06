@@ -1,0 +1,51 @@
+id: disodium_edta
+name: Disodium EDTA
+aliases:
+  - EDTA
+  - Ethylenediaminetetraacetic Acid Disodium Salt
+  - Edetate Disodium
+  - Disodium Edetate
+  - Tetrasodium EDTA
+  - Trisodium EDTA
+cas_number: "139-33-3"
+
+category: chelating_agent
+product_types:
+  - skincare
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Chelating agent that binds metal ions, improving product stability and boosting preservative effectiveness. CIR safe. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: strong
+
+sources:
+  - ref: aad-pregnancy-skincare
+  - ref: eu-sccs-cosmetic-safety
+
+safer_alternatives: []
+
+notes: >
+  EDTA appears near the end of most ingredient lists at very low concentrations. It prevents metal ions from degrading the product's color, fragrance, and preservative system. It has no pharmacological activity at cosmetic concentrations.
+last_reviewed: "2026-04-05"
+rating_confidence: high

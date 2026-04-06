@@ -1,0 +1,53 @@
+id: panthenol
+name: Panthenol
+aliases:
+  - Provitamin B5
+  - D-Panthenol
+  - Dexpanthenol
+  - DL-Panthenol
+  - Pantothenol
+  - Vitamin B5
+cas_number: "81-13-0"
+
+category: vitamin
+product_types:
+  - skincare
+  - baby_products
+  - hair_care
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Provitamin B5. Moisturizer and skin/hair conditioner. CIR safe. Common in baby products, shampoos, and wound healing formulations. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: strong
+
+sources:
+  - ref: aad-pregnancy-skincare
+  - ref: fda-skin-protectant-monograph
+
+safer_alternatives: []
+
+notes: >
+  Panthenol converts to pantothenic acid (vitamin B5) in the skin. It is one of the most well-tolerated cosmetic ingredients and is used in everything from baby lotions to wound healing creams (Bepanthen/Bepanthol).
+last_reviewed: "2026-04-05"
+rating_confidence: high

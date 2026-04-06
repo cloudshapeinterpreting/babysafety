@@ -1,0 +1,49 @@
+id: stearic_acid
+name: Stearic Acid
+aliases:
+  - Octadecanoic Acid
+  - n-Octadecanoic Acid
+  - Stearin
+cas_number: "57-11-4"
+
+category: emulsifier
+product_types:
+  - skincare
+  - cosmetics
+  - baby_products
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Natural fatty acid (C18) found in animal and plant fats. Emulsifier, thickener, and skin conditioning agent. CIR and FDA safe. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: definitive
+
+sources:
+  - ref: fda-gras-food-additives
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Stearic acid is a saturated fatty acid naturally present in cocoa butter, shea butter, and animal tallow. It is one of the most common cosmetic ingredients and is also a food additive (GRAS).
+last_reviewed: "2026-04-05"
+rating_confidence: high

@@ -1,0 +1,50 @@
+id: citric_acid
+name: Citric Acid
+aliases:
+  - 2-Hydroxypropane-1,2,3-tricarboxylic Acid
+  - E330
+  - Hydrogen Citrate
+  - Anhydrous Citric Acid
+cas_number: "77-92-9"
+
+category: ph_adjuster
+product_types:
+  - skincare
+  - baby_products
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      pH adjuster and chelating agent. FDA GRAS for food use. Found naturally in citrus fruits. In virtually every cosmetic product. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: definitive
+
+sources:
+  - ref: fda-gras-food-additives
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Citric acid is one of the most ubiquitous cosmetic ingredients. It adjusts pH (making products less alkaline) and chelates metal ions (improving product stability). It is naturally occurring and FDA GRAS.
+last_reviewed: "2026-04-05"
+rating_confidence: high

@@ -1,0 +1,50 @@
+id: benzyl_alcohol
+name: Benzyl Alcohol
+aliases:
+  - Phenylmethanol
+  - Phenylcarbinol
+  - alpha-Hydroxytoluene
+  - Benzenemethanol
+cas_number: "100-51-6"
+
+category: preservative
+product_types:
+  - skincare
+  - cosmetics
+  - baby_products
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Preservative and solvent. CIR-reviewed safe in cosmetics. Common alongside phenoxyethanol in paraben-free formulations. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: strong
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: strong
+
+sources:
+  - ref: aad-pregnancy-skincare
+  - ref: eu-sccs-cosmetic-safety
+
+safer_alternatives: []
+
+notes: >
+  Benzyl alcohol is a naturally occurring compound found in many fruits and teas. In cosmetics it serves as a preservative at low concentrations (typically 1 percent or less). Despite the word 'alcohol' in the name, it is NOT a drying alcohol.
+last_reviewed: "2026-04-05"
+rating_confidence: high

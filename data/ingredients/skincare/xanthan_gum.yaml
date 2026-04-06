@@ -1,0 +1,48 @@
+id: xanthan_gum
+name: Xanthan Gum
+aliases:
+  - Xanthomonas Campestris Polysaccharide
+  - E415
+cas_number: "11138-66-2"
+
+category: thickener
+product_types:
+  - skincare
+  - baby_products
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Natural polysaccharide thickener. FDA GRAS for food use. Commonly used in baby products and natural formulations. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: definitive
+
+sources:
+  - ref: fda-gras-food-additives
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Xanthan gum is produced by bacterial fermentation and is used as a thickener in both food (salad dressings, sauces) and cosmetics. It is one of the safest and most well-established cosmetic ingredients.
+last_reviewed: "2026-04-05"
+rating_confidence: high

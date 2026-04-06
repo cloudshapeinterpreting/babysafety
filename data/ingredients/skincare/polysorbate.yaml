@@ -1,0 +1,54 @@
+id: polysorbate
+name: Polysorbate (Emulsifier Family)
+aliases:
+  - Polysorbate 20
+  - Polysorbate 60
+  - Polysorbate 80
+  - Tween 20
+  - Tween 60
+  - Tween 80
+  - Polyoxyethylene Sorbitan Monolaurate
+  - Polyoxyethylene Sorbitan Monostearate
+cas_number: "9005-64-5"
+
+category: emulsifier
+product_types:
+  - skincare
+  - baby_products
+  - cosmetics
+
+safety:
+  pregnancy:
+    rating: safe
+    summary: >
+      Non-ionic emulsifier and solubilizer. FDA GRAS for food use. Common in baby products and gentle cleansers. No pregnancy concerns.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  nursing:
+    rating: safe
+    summary: >
+      Safe during nursing.
+    dose_dependent: false
+    exposure_route: topical
+    evidence_strength: definitive
+
+  baby:
+    rating: safe
+    summary: >
+      Safe for infants in cosmetic formulations.
+    min_safe_age_months: 0
+    exposure_route: topical
+    evidence_strength: definitive
+
+sources:
+  - ref: fda-gras-food-additives
+  - ref: aad-pregnancy-skincare
+
+safer_alternatives: []
+
+notes: >
+  Polysorbates are among the gentlest emulsifiers available and are widely used in baby products, eye drops, and injectable medications. Polysorbate 80 is used as an excipient in vaccines, demonstrating its well-established safety profile.
+last_reviewed: "2026-04-05"
+rating_confidence: high
