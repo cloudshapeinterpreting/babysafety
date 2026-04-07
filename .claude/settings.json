@@ -1,0 +1,59 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source venv/bin/activate*)",
+      "Bash(python*)",
+      "Bash(pip*)",
+      "Bash(babysafety*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(gh repo:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh api:*)",
+      "mcp__codex__codex"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)"
+    ]
+  },
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "osascript -e 'display notification \"Claude needs your attention\" with title \"BabySafety\"'"
+          }
+        ]
+      }
+    ],
+    "PostCompact": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Reminder: Always activate venv first (source venv/bin/activate). Run babysafety compile after YAML changes. Run pytest after code changes.'"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "FILE=$(cat | jq -r '.tool_input.file_path'); if echo \"$FILE\" | grep -q 'data/compiled/'; then echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"deny\",\"reason\":\"Never edit compiled files directly. Use babysafety compile.\"}}'; exit 2; fi"
+          }
+        ]
+      }
+    ]
+  }
+}

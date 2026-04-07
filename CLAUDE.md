@@ -37,6 +37,23 @@ python -m pytest tests/ -v   # Run tests
 | avoid | Evidence-based recommendation against use |
 | insufficient_data | Not enough research |
 
+## Evidence System
+
+Each ingredient has two orthogonal quality axes:
+
+| Axis | Lives on | Values | Measures |
+|------|----------|--------|----------|
+| `evidence_strength` | Per-stage | definitive, strong, moderate, limited | Strength of published/regulatory evidence |
+| `rating_confidence` | Per-ingredient | high, moderate, low, insufficient | Curator confidence in the assigned rating |
+
+Evidence strength definitions:
+- **definitive**: established human harm or binding regulatory prohibition (mercury, lead, inert emollients)
+- **strong**: major guideline/regulatory consensus (hydroquinone per ACOG, IARC Group 1)
+- **moderate**: indirect/incomplete evidence (chemical sunscreens, phthalates)
+- **limited**: precaution driven by unknowns (minoxidil, grouped EO classes)
+
+Full schema rules: `.claude/rules/ingredient-data.md`
+
 ## Important
 
 - Always cite the sources listed in each ingredient entry
@@ -65,9 +82,10 @@ python -m pytest tests/ -v   # Run tests
 
 | Trigger | Action |
 |---------|--------|
-| check/analyze/evaluate ingredients | `babysafety check` CLI command |
+| check/analyze/evaluate ingredients | `/check-label` skill |
 | lookup/search ingredient | `babysafety lookup` CLI command |
-| add ingredient/expand KB | Create YAML in `data/ingredients/`, compile, test |
+| add ingredient/expand KB | `/add-ingredient` skill |
+| research ingredient safety | `@ingredient-researcher` agent |
 | plan/design | enter plan mode |
 | review/audit/check project | `/best-practices` |
 
